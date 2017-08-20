@@ -16,6 +16,9 @@
         "Vue 2",
         "Vue Snippets"
     ],
+    "extensionDependencies": [
+        "octref.vetur"
+    ],
     "categories": [
         "Snippets"
     ],

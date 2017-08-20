@@ -1,6 +1,6 @@
 # Vue VSCode Snippets
 
- ![vue-snippet-hero](./images/vue-snippet-hero.gif)
+ ![vue-snippet-hero](https://github.com/sdras/vue-vscode-snippets/blob/master/images/vue-snippet-hero.gif)
 
 ## Description
 
@@ -10,11 +10,17 @@ This repo was built particularly for real world use. It doesn't catalogue the AP
 
 _Current version: Vue2_
 
-![SnippetDemo](./images/SnippetDemo.gif)
+![SnippetDemo](https://github.com/sdras/vue-vscode-snippets/blob/master/images/SnippetDemo.gif)
 
 ## Installation
 
-* [vscode Extensions Marketplace](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
+_Either_
+
+* click the extensions button (lowest square icon in the editor), and type in Vue VSCode Snippets, select the one by sdras
+
+_or_
+
+* go here [vscode Extensions Marketplace](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
 
 ```javascript
 ext install Vue VSCode Snippets
