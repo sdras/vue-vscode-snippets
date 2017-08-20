@@ -1,6 +1,6 @@
 # Vue VSCode Snippets
 
- ![vue-snippet-hero](./src/images/vue-snippet-hero.gif)
+ ![vue-snippet-hero](./images/vue-snippet-hero.gif)
 
 ## Description
 
@@ -10,7 +10,7 @@ This repo was built particularly for real world use. It doesn't catalogue the AP
 
 _Current version: Vue2_
 
-![SnippetDemo](./src/images/SnippetDemo.gif)
+![SnippetDemo](./images/SnippetDemo.gif)
 
 ## Installation
 
