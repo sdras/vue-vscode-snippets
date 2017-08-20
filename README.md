@@ -36,12 +36,14 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vprops`               | Props with type and default |
 | `vimport`              | Import one component into another |
 | `vimport-c`            | Import one component into another within the export statement |
+| `vimport-export`       | Import one component into another and use it within the export statement |
 | `vfilter`              | Vue filter |
 | `vmixin`               | Create a Vue Mixin |
 | `vmixin-use`           | Bring a mixin into a component to use |
 | `vc-direct`            | Vue create a custom directive |
 | `vimport-lib`          | Import a library |
 | `vimport-gsap`         | Import GreenSock with Timeline and Eases |
+| `vanimhook-js`         | Using the Transition component JS hooks in methods |
 
 ### Template
 
@@ -59,7 +61,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vclass-obj`           | Class binding with objects |
 | `vclass-obj-mult`      | Multiple conditional class bindings |
 | `vanim`                | Transition component with JS hooks |
-| `vanimhook-js`         | Using the Transition component JS hooks in methods |
 
 ### Vuex
 
@@ -76,8 +77,8 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | Snippet                | Purpose             |
 | ---------------------- | ------------------- |
 | `gitignore`            | .gitignore file presets |
-| `vadd`                 | incrementer |
-| `vsub`                 | decrementer |
+| `vinc`                 | incrementer |
+| `vdec`                 | decrementer |
 
 
 ## Contributing
