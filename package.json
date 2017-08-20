@@ -2,7 +2,7 @@
     "name": "vue-vscode-snippets",
     "displayName": "Vue VSCode Snippets",
     "description": "Snippets that will supercharge your Vue workflow",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "sdras",
     "engines": {
         "vscode": "^1.15.0"
