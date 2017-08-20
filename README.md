@@ -1,6 +1,6 @@
 # Vue VSCode Snippets
 
- ![logo](./src/images/logo.jpg)
+ ![vue-snippet-hero](./src/images/vue-snippet-hero.gif)
 
 ## Description
 
@@ -10,15 +10,17 @@ This repo was built particularly for real world use. It doesn't catalogue the AP
 
 _Current version: Vue2_
 
-![demo](./src/images/demo.gif)
+![SnippetDemo](./src/images/SnippetDemo.gif)
 
 ## Installation
 
 * [vscode Extensions Marketplace](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
+
 ```javascript
 ext install Vue VSCode Snippets
 ```
-I enable tab completion by opening `Code > Preferences > Settings` (on a Mac) and applying `"editor.tabCompletion": true` to your personal settings
+
+You can enable tab completion (recommended) by opening `Code > Preferences > Settings` (on a Mac) and applying `"editor.tabCompletion": true` to your personal settings
 
 ## Snippets
 
