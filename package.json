@@ -1,0 +1,34 @@
+{
+    "name": "vue-vscode-snippets",
+    "displayName": "Vue VSCode Snippets",
+    "description": "Snippets that will supercharge your Vue workflow",
+    "version": "0.0.1",
+    "publisher": "sdras",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sdras/vue-vscode-snippets.git"
+    },
+    "keywords": [
+        "Vue",
+        "Vue 2",
+        "Vue Snippets"
+    ],
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vue",
+                "path": "./snippets/vue.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/plaintext.json"
+            }
+        ]
+    }
+}
