@@ -218,7 +218,7 @@
 		"prefix": "vwatcher",
 		"body": [
 			"watch: {",
-			"\t${1:data}(${2:newValue, ${3:oldValue) {",
+			"\t${1:data}(${2:newValue}, ${3:oldValue}) {",
 			"\t\t${0}",
 			"\t}",
 			"},"
