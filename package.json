@@ -31,6 +31,10 @@
             {
                 "language": "plaintext",
                 "path": "./snippets/plaintext.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/vue.json"
             }
         ]
     }
