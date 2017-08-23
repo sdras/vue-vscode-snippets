@@ -134,7 +134,7 @@
 		"prefix": "vmutation",
 		"body": [
 			"mutations: {",
-			"\t${1:updateValue}: (state, ${3:payload}) {",
+			"\t${1:updateValue}(state, ${3:payload}) {",
 			"\t\tstate.${2:value} = ${3:payload};",
 			"\t}",
 			"}"
