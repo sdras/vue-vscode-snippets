@@ -72,6 +72,8 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vimport-lib`          | Import a library |
 | `vimport-gsap`         | Import GreenSock with Timeline and Eases |
 | `vanimhook-js`         | Using the Transition component JS hooks in methods |
+| `vinc`                 | incrementer |
+| `vdec`                 | decrementer |
 
 ### Vuex
 
@@ -88,8 +90,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | Snippet                | Purpose             |
 | ---------------------- | ------------------- |
 | `gitignore`            | .gitignore file presets |
-| `vinc`                 | incrementer |
-| `vdec`                 | decrementer |
 
 
 ## Contributing
