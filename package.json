@@ -1,54 +1,46 @@
 {
-    "name": "vue-vscode-snippets",
-    "displayName": "Vue VSCode Snippets",
-    "description": "Snippets that will supercharge your Vue workflow",
-    "icon": "images/vue-logo.png",
-    "version": "1.0.2",
-    "publisher": "sdras",
-    "engines": {
-        "vscode": "^1.14.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/sdras/vue-vscode-snippets.git"
-    },
-    "keywords": [
-        "Vue",
-        "Vue 2",
-        "Vue Snippets"
-    ],
-    "extensionDependencies": [
-        "octref.vetur"
-    ],
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "vue",
-                "path": "./snippets/vue.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/vue-template.json"
-            },
-            {
-                "language": "vue-html",
-                "path": "./snippets/vue-template.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/vue-script.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/vue-script-vuex.json"
-            },
-            {
-                "language": "plaintext",
-                "path": "./snippets/plaintext.json"
-            }
-        ]
-    }
+  "name": "vue-vscode-snippets",
+  "displayName": "Vue VSCode Snippets",
+  "description": "Snippets that will supercharge your Vue workflow",
+  "icon": "images/vue-logo.png",
+  "version": "1.0.3",
+  "publisher": "sdras",
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdras/vue-vscode-snippets.git"
+  },
+  "keywords": ["Vue", "Vue 2", "Vue Snippets"],
+  "extensionDependencies": ["octref.vetur"],
+  "categories": ["Snippets"],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/vue.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/vue-template.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/vue-template.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/vue-script.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/vue-script-vuex.json"
+      },
+      {
+        "language": "plaintext",
+        "path": "./snippets/plaintext.json"
+      }
+    ]
+  }
 }
