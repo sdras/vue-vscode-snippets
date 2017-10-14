@@ -30,26 +30,11 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ## Snippets
 
-### Script
+### Vue
 
 | Snippet                | Purpose             |
 | ---------------------- | ------------------- |
 | `vbase`                | Single file component base |
-| `vdata`                | Component data as a function |
-| `vmethod`              | Vue method |
-| `vcomputed`            | Vue computed property |
-| `vwatcher`             | Vue watcher with new and old value args |
-| `vprops`               | Props with type and default |
-| `vimport`              | Import one component into another |
-| `vimport-c`            | Import one component into another within the export statement |
-| `vimport-export`       | Import one component into another and use it within the export statement |
-| `vfilter`              | Vue filter |
-| `vmixin`               | Create a Vue Mixin |
-| `vmixin-use`           | Bring a mixin into a component to use |
-| `vc-direct`            | Vue create a custom directive |
-| `vimport-lib`          | Import a library |
-| `vimport-gsap`         | Import GreenSock with Timeline and Eases |
-| `vanimhook-js`         | Using the Transition component JS hooks in methods |
 
 ### Template
 
@@ -68,12 +53,34 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vclass-obj-mult`      | Multiple conditional class bindings |
 | `vanim`                | Transition component with JS hooks |
 
+### Script
+
+| Snippet                | Purpose             |
+| ---------------------- | ------------------- |
+| `vdata`                | Component data as a function |
+| `vmethod`              | Vue method |
+| `vcomputed`            | Vue computed property |
+| `vwatcher`             | Vue watcher with new and old value args |
+| `vprops`               | Props with type and default |
+| `vimport`              | Import one component into another |
+| `vimport-c`            | Import one component into another within the export statement |
+| `vimport-export`       | Import one component into another and use it within the export statement |
+| `vfilter`              | Vue filter |
+| `vmixin`               | Create a Vue Mixin |
+| `vmixin-use`           | Bring a mixin into a component to use |
+| `vc-direct`            | Vue create a custom directive |
+| `vimport-lib`          | Import a library |
+| `vimport-gsap`         | Import GreenSock with Timeline and Eases |
+| `vanimhook-js`         | Using the Transition component JS hooks in methods |
+| `vinc`                 | incrementer |
+| `vdec`                 | decrementer |
+
 ### Vuex
 
 | Snippet                | Purpose             |
 | ---------------------- | ------------------- |
 | `vstore`               | Base for Vuex store.js |
-| `vgetters`             | Vuex Getter |
+| `vgetter`              | Vuex Getter |
 | `vmutation`            | Vuex Mutation |
 | `vaction`              | Vuex Action |
 | `vstore-import`        | Import vuex store into main.js |
@@ -83,8 +90,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | Snippet                | Purpose             |
 | ---------------------- | ------------------- |
 | `gitignore`            | .gitignore file presets |
-| `vinc`                 | incrementer |
-| `vdec`                 | decrementer |
 
 
 ## Contributing

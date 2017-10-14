@@ -1,0 +1,97 @@
+{
+	"Vue v-for": {
+		"prefix": "vfor",
+		"body": [
+			"<${1:div} v-for=\"${2:item} in ${2:item}s\" :key=\"${2:item}.id\">",
+			"\t{{ ${2:item} }}",
+			"</${1:div}>"
+		],
+		"description": "vfor statement"
+	},
+	"Vue v-model Directive": {
+		"prefix": "vmodel",
+		"body": [
+			"<input v-model=\"${1:data}\" type=\"text\" />"
+		],
+		"description": "v-model directive"
+	},
+	"Vue v-model Number Directive": {
+		"prefix": "vmodel-num",
+		"body": [
+			"<input v-model.number=\"${1:numData}\" type=\"number\" step=\"1\" />"
+		],
+		"description": "v-model directive number input"
+	},
+	"Vue v-on Shortcut Directive": {
+		"prefix": "von",
+		"body": [
+			"@click=\"${1:handler}(${2:arg}, $event)\""
+		],
+		"description": "v-on click handler with arguments"
+	},
+	"Vue Component with Props Binding": {
+		"prefix": "vel-props",
+		"body": [
+			"<${1:component} :${1:propName}=\"${0}\"></${1:component}>"
+		],
+		"description": "component element with props"
+	},
+	"Vue Image Source Binding": {
+		"prefix": "vsrc",
+		"body": [
+			"<img :src=\"'/path/to/images/' + ${1:fileName}\" alt=\"${2:altText}\"/>"
+		],
+		"description": "image source binding"
+	},
+	"Vue Style Binding": {
+		"prefix": "vstyle",
+		"body": [
+			"<${1:div} :style=\"{ fontSize: ${2:data} + 'px' }\"></${1:div}>"
+		],
+		"description": "vue inline style binding"
+	},
+	"Vue Style Binding Object": {
+		"prefix": "vstyle-obj",
+		"body": [
+			"<${1:div} :style=\"[${2:styleObjectA}, ${3:styleObjectB]}\"></${1:div}>"
+		],
+		"description": "vue inline style binding, objects"
+	},
+	"Vue Class Binding": {
+		"prefix": "vclass",
+		"body": [
+			"<${1:div} :class=\"{ ${2:className}: ${3:data} }\"></${1:div}>"
+		],
+		"description": "vue class binding"
+	},
+	"Vue Class Binding Object": {
+		"prefix": "vclass-obj",
+		"body": [
+			"<${1:div} :class=\"[${2:classNameA}, ${3:classNameB}]\"></${1:div}>"
+		],
+		"description": "vue class binding"
+	},
+	"Vue Multiple Conditional Class Bindings": {
+		"prefix": "vclass-obj-mult",
+		"body": [
+			"<${1:div} :class=\"[${2:classNameA}, {${3:classNameB} : ${4:condition}}]\"></${1:div}>"
+		],
+		"description": "vue multiple conditional class bindings"
+	},
+	"Vue Transition Component with JavaScript Hooks": {
+		"prefix": "vanim",
+		"body": [
+			"<transition", 
+			"\tmode=\"out-in\"",
+			"\t@before-enter=\"beforeEnter\"",
+			"\t@enter=\"enter\"",
+			"",
+			"\t@before-leave=\"beforeLeave\"",
+			"\t@leave=\"leave\"",
+			"\t:css=\"false\">",
+			"",
+		  "</transition>"
+		],
+		"description": "transition component js hooks"
+  }
+}
