@@ -52,6 +52,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vclass-obj`           | Class binding with objects |
 | `vclass-obj-mult`      | Multiple conditional class bindings |
 | `vanim`                | Transition component with JS hooks |
+| `vnuxtl`               | Nuxt Routing Link |
 
 ### Script
 
@@ -72,6 +73,8 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vimport-lib`          | Import a library |
 | `vimport-gsap`         | Import GreenSock with Timeline and Eases |
 | `vanimhook-js`         | Using the Transition component JS hooks in methods |
+| `vcommit`              | Commit to Vuex store in methods for mutation |
+| `vdispatch`            | Dispatch to Vuex store in methods for action |
 | `vinc`                 | incrementer |
 | `vdec`                 | decrementer |
 
@@ -85,6 +88,13 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vaction`              | Vuex Action |
 | `vstore-import`        | Import vuex store into main.js |
 
+### Nuxt Config
+
+| Snippet                | Purpose             |
+| ---------------------- | ------------------- |
+| `nfont`                | link to include fonts in a nuxt project, in nuxt-config |
+| `ncss`                 | link to css assets such as normalize |
+
 ### Extra (plaintext)
 
 | Snippet                | Purpose             |
@@ -93,5 +103,5 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 
 ## Contributing
-This is an open source project open to anyone. Contributions are welcome :[github](https://github.com/sdras/vue-vscode-snippets) 
+This is an open source project open to anyone. Contributions are welcome [github](https://github.com/sdras/vue-vscode-snippets) 
 

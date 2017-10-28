@@ -1,177 +1,166 @@
 {
-	"Vue Data": {
-		"prefix": "vdata",
-		"body": [
-			"data() {",
-			"\treturn {",
-			"\t\t${1:key}: ${2:value}",
-			"\t}",
-			"},"
-		],
-		"description": "Vue Component Data"
-	},
-	"Vue Methods": {
-		"prefix": "vmethod",
-		"body": [
-			"methods: {",
-			"\t${1:name}() {",
-			"\t\t${0}",
-			"\t}",
-			"},"
-		],
-		"description": "vue method"
-	},
-	"Vue Computed": {
-		"prefix": "vcomputed",
-		"body": [
-			"computed: {",
-			"\t${1:name}() {",
-			"\t\treturn this.${2:data} ${0}",
-			"\t}",
-			"},"
-		],
-		"description": "computed value"
-	},
-	"Vue Watchers": {
-		"prefix": "vwatcher",
-		"body": [
-			"watch: {",
-			"\t${1:data}(${2:newValue}, ${3:oldValue}) {",
-			"\t\t${0}",
-			"\t}",
-			"},"
-		],
-		"description": "vue watcher"
-	},
-	"Vue Props with Default": {
-		"prefix": "vprops",
-		"body": [
-			"props: {",
-			"\t${1:propName}: {",
-			"\t\ttype: ${2:number},",
-			"\t\tdefault: ${0}",
-			"\t},",
-			"},"
-		],
-		"description": "Vue Props with Default"
-	},
-	"Vue Import File": {
-		"prefix": "vimport",
-		"body": [
-			"import ${1:New} from './components/${1:New}.vue';"
-		],
-		"description": "Import one component into another"
-	},
-	"Vue Import into the Component": {
-		"prefix": "vimport-c",
-		"body": [
-			"components: {",
-			"\t${1:New},",
-			"}"
-		],
-		"description": "Import one component into another, within export statement"
-	},
-	"Vue Import Export": {
-		"prefix": "vimport-export",
-		"body": [
-			"import ${1:Name} from '~components/${1:Name}.vue'",
-			"",
-			"export default {",
-			"\tcomponents: {",
-			"\t\t${1:Name}",
-			"\t},",
-			"}"
-		],
-		"description": "import a component and include it in export default"
-	},
-	"Vue Filter": {
-		"prefix": "vfilter",
-		"body": [
-			"filters: {",
-			"\t${1:fnName}: function(${2:value}) {",
-			"\t\treturn ${2:value}${0};",
-			"\t}",
-			"}"
-		],
-		"description": "vue filter"
-	},
-	"Vue Mixin": {
-		"prefix": "vmixin",
-		"body": [
-			"const ${1:mixinName} = {",
-			"\tmounted() {",
-			"\t\tconsole.log('hello from mixin!')",
-			"\t},",
-			"}"
-		],
-		"description": "vue mixin"
-	},
-	"Vue Use Mixin": {
-		"prefix": "vmixin-use",
-		"body": [
-			"mixins: [${1:mixinName}]"
-		],
-		"description": "vue use mixin"
-	},
-	"Vue Custom Directive": {
-		"prefix": "vc-direct",
-		"body": [
-			"Vue.directive('${1:directiveName}', {",
-			"\tbind(el, binding, vnode) {",
-			"\t\tel.style.${2:arg} = binding.value.${2:arg};",
-			"\t}",
-			"});"
-		],
-		"description": "vue custom directive"
-	},
-	"Vue Import Library": {
-		"prefix": "vimport-lib",
-		"body": [
-			"import { ${1:libName} } from '${1:libName}'"
-		],
-		"description": "import a library"
-	},
-	"Vue Import GSAP": {
-		"prefix": "vimport-gsap",
-		"body": [
-			"import { TimelineMax, ${1:Ease} } from 'gsap'"
-		],
-		"description": "component methods options that dispatch an action from vuex store."
-	},
-	"Vue Transition Methods with JavaScript Hooks": {
-		"prefix": "vanimhook-js",
-		"body": [
-			"methods: {",
-			"\tbeforeEnter(el) {",
-			"\t\tconsole.log('beforeEnter');",
-			"\t},",
-			"\tenter(el, done) {",
-			"\t\tconsole.log('enter');",
-			"\t\tdone();",
-			"\t},",
-			"\tbeforeLeave(el) {",
-			"\t\tconsole.log('beforeLeave');",
-			"\t}," ,
-			"\tleave(el, done) {",
-			"\t\tconsole.log('leave');",
-			"\t\tdone();",
-			"\t},",
-			"},"
-		],
-		"description": "transition component js hooks"
-	},
-	"Incrementer": {
-		"prefix": "vinc",
-		"body": [
-			"return ${1:this.num} += ${2:1}"
-		],
-		"description": "increment"
-	},
-	"Decrementer": {
-		"prefix": "vdec",
-		"body": [
-			"return ${1:this.num} -= ${2:1}"
-		],
-		"description": "decrement"
-	}
+  "Vue Data": {
+    "prefix": "vdata",
+    "body": ["data() {", "\treturn {", "\t\t${1:key}: ${2:value}", "\t}", "},"],
+    "description": "Vue Component Data"
+  },
+  "Vue Methods": {
+    "prefix": "vmethod",
+    "body": ["methods: {", "\t${1:name}() {", "\t\t${0}", "\t}", "},"],
+    "description": "vue method"
+  },
+  "Vue Computed": {
+    "prefix": "vcomputed",
+    "body": [
+      "computed: {",
+      "\t${1:name}() {",
+      "\t\treturn this.${2:data} ${0}",
+      "\t}",
+      "},"
+    ],
+    "description": "computed value"
+  },
+  "Vue Watchers": {
+    "prefix": "vwatcher",
+    "body": [
+      "watch: {",
+      "\t${1:data}(${2:newValue}, ${3:oldValue}) {",
+      "\t\t${0}",
+      "\t}",
+      "},"
+    ],
+    "description": "vue watcher"
+  },
+  "Vue Props with Default": {
+    "prefix": "vprops",
+    "body": [
+      "props: {",
+      "\t${1:propName}: {",
+      "\t\ttype: ${2:number},",
+      "\t\tdefault: ${0}",
+      "\t},",
+      "},"
+    ],
+    "description": "Vue Props with Default"
+  },
+  "Vue Import File": {
+    "prefix": "vimport",
+    "body": ["import ${1:New} from './components/${1:New}.vue';"],
+    "description": "Import one component into another"
+  },
+  "Vue Import into the Component": {
+    "prefix": "vimport-c",
+    "body": ["components: {", "\t${1:New},", "}"],
+    "description": "Import one component into another, within export statement"
+  },
+  "Vue Import Export": {
+    "prefix": "vimport-export",
+    "body": [
+      "import ${1:Name} from '~components/${1:Name}.vue'",
+      "",
+      "export default {",
+      "\tcomponents: {",
+      "\t\t${1:Name}",
+      "\t},",
+      "}"
+    ],
+    "description": "import a component and include it in export default"
+  },
+  "Vue Filter": {
+    "prefix": "vfilter",
+    "body": [
+      "filters: {",
+      "\t${1:fnName}: function(${2:value}) {",
+      "\t\treturn ${2:value}${0};",
+      "\t}",
+      "}"
+    ],
+    "description": "vue filter"
+  },
+  "Vue Mixin": {
+    "prefix": "vmixin",
+    "body": [
+      "const ${1:mixinName} = {",
+      "\tmounted() {",
+      "\t\tconsole.log('hello from mixin!')",
+      "\t},",
+      "}"
+    ],
+    "description": "vue mixin"
+  },
+  "Vue Use Mixin": {
+    "prefix": "vmixin-use",
+    "body": ["mixins: [${1:mixinName}]"],
+    "description": "vue use mixin"
+  },
+  "Vue Custom Directive": {
+    "prefix": "vc-direct",
+    "body": [
+      "Vue.directive('${1:directiveName}', {",
+      "\tbind(el, binding, vnode) {",
+      "\t\tel.style.${2:arg} = binding.value.${2:arg};",
+      "\t}",
+      "});"
+    ],
+    "description": "vue custom directive"
+  },
+  "Vue Import Library": {
+    "prefix": "vimport-lib",
+    "body": ["import { ${1:libName} } from '${1:libName}'"],
+    "description": "import a library"
+  },
+  "Vue Import GSAP": {
+    "prefix": "vimport-gsap",
+    "body": ["import { TimelineMax, ${1:Ease} } from 'gsap'"],
+    "description":
+      "component methods options that dispatch an action from vuex store."
+  },
+  "Vue Transition Methods with JavaScript Hooks": {
+    "prefix": "vanimhook-js",
+    "body": [
+      "beforeEnter(el) {",
+      "\tconsole.log('beforeEnter');",
+      "},",
+      "enter(el, done) {",
+      "\tconsole.log('enter');",
+      "\tdone();",
+      "},",
+      "beforeLeave(el) {",
+      "\tconsole.log('beforeLeave');",
+      "},",
+      "leave(el, done) {",
+      "\tconsole.log('leave');",
+      "\tdone();",
+      "},"
+    ],
+    "description": "transition component js hooks"
+  },
+  "Vue Commit Vuex Store in Methods": {
+    "prefix": "vcommit",
+    "body": [
+      "${1:mutationName}() {",
+      "\tthis.$store.commit('${1:mutationName}', ${2:payload})",
+      "}"
+    ],
+    "description": "commit to vuex store in methods for mutation"
+  },
+  "Vue Dispatch Vuex Store in Methods": {
+    "prefix": "vdispatch",
+    "body": [
+      "${1:actionName}() {",
+      "\tthis.$store.dispatch('${1:actionName}', ${2:payload})",
+      "}"
+    ],
+    "description": "dispatch to vuex store in methods for action"
+  },
+  "Incrementer": {
+    "prefix": "vinc",
+    "body": ["return ${1:this.num} += ${2:1}"],
+    "description": "increment"
+  },
+  "Decrementer": {
+    "prefix": "vdec",
+    "body": ["return ${1:this.num} -= ${2:1}"],
+    "description": "decrement"
+  }
 }
