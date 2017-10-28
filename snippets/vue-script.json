@@ -145,7 +145,7 @@
     "description": "commit to vuex store in methods for mutation"
   },
   "Vue Dispatch Vuex Store in Methods": {
-    "prefix": "vcommit",
+    "prefix": "vdispatch",
     "body": [
       "${1:actionName}() {",
       "\tthis.$store.dispatch('${1:actionName}', ${2:payload})",

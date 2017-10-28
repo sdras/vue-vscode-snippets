@@ -73,6 +73,8 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vimport-lib`          | Import a library |
 | `vimport-gsap`         | Import GreenSock with Timeline and Eases |
 | `vanimhook-js`         | Using the Transition component JS hooks in methods |
+| `vcommit`              | Commit to Vuex store in methods for mutation |
+| `vdispatch`            | Dispatch to Vuex store in methods for action |
 | `vinc`                 | incrementer |
 | `vdec`                 | decrementer |
 
@@ -85,6 +87,12 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vmutation`            | Vuex Mutation |
 | `vaction`              | Vuex Action |
 | `vstore-import`        | Import vuex store into main.js |
+
+### Nuxt Config
+
+| Snippet                | Purpose             |
+| ---------------------- | ------------------- |
+| `nfont`                | link to include fonts in a nuxt project, in nuxt-config |
 
 ### Extra (plaintext)
 

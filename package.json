@@ -38,6 +38,10 @@
         "path": "./snippets/vue-script-vuex.json"
       },
       {
+        "language": "javascript",
+        "path": "./snippets/nuxt-config.json"
+      },
+      {
         "language": "plaintext",
         "path": "./snippets/plaintext.json"
       }
