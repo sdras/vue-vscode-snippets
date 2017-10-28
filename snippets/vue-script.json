@@ -135,6 +135,24 @@
     ],
     "description": "transition component js hooks"
   },
+  "Vue Commit Vuex Store in Methods": {
+    "prefix": "vcommit",
+    "body": [
+      "${1:mutationName}() {",
+      "\tthis.$store.commit('${1:mutationName}', ${2:payload})",
+      "}"
+    ],
+    "description": "commit to vuex store in methods for mutation"
+  },
+  "Vue Dispatch Vuex Store in Methods": {
+    "prefix": "vcommit",
+    "body": [
+      "${1:actionName}() {",
+      "\tthis.$store.dispatch('${1:actionName}', ${2:payload})",
+      "}"
+    ],
+    "description": "dispatch to vuex store in methods for action"
+  },
   "Incrementer": {
     "prefix": "vinc",
     "body": ["return ${1:this.num} += ${2:1}"],
