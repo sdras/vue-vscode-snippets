@@ -42,7 +42,7 @@
 		"body": [
 			"actions: {",
 			"\t${1:updateValue}({commit}, ${2:payload}) {",
-			"\t\tcommit(${1:updateValue}, ${2:payload});",
+			"\t\tcommit('${1:updateValue}', ${2:payload});",
 			"\t}",
 			"}"
 		],
