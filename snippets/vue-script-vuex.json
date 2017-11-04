@@ -19,7 +19,7 @@
 		"prefix": "vgetter",
 		"body": [
 			"getters: {",
-			"\tvalue: ${1:value} => {",
+			"\t${1:value}: state => {",
 			"\t\treturn state.${1:value};",
 			"\t}",
 			"}"
@@ -42,7 +42,7 @@
 		"body": [
 			"actions: {",
 			"\t${1:updateValue}({commit}, ${2:payload}) {",
-			"\t\tcommit(${1:updateValue}, ${2:payload});",
+			"\t\tcommit('${1:updateValue}', ${2:payload});",
 			"\t}",
 			"}"
 		],
