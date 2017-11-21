@@ -36,7 +36,7 @@
     "body": [
       "props: {",
       "\t${1:propName}: {",
-      "\t\ttype: ${2:number},",
+      "\t\ttype: ${2:Number},",
       "\t\tdefault: ${0}",
       "\t},",
       "},"
