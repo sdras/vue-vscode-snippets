@@ -8,7 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 * Initial release
 
-## [1.2.1]
+## [1.3.0]
 
 * Add nuxt and dist to .gitignore
 * Add in testing snippet
