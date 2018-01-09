@@ -56,7 +56,7 @@
   "Vue Import Export": {
     "prefix": "vimport-export",
     "body": [
-      "import ${1:Name} from '~components/${1:Name}.vue'",
+      "import ${1:Name} from './components/${1:Name}.vue'",
       "",
       "export default {",
       "\tcomponents: {",
@@ -162,5 +162,22 @@
     "prefix": "vdec",
     "body": ["return ${1:this.num} -= ${2:1}"],
     "description": "decrement"
+  },
+  "Unit Test": {
+    "prefix": "vtest",
+    "body": [
+      "import Vue from 'vue'",
+      "import ${1:HelloWorld} from './components/${1:HelloWorld}'",
+      "",
+      "describe('${1:HelloWorld}.vue', () => {",
+      "\tit('${2:should render correct contents}', () => {",
+      "\t\tconst Constructor = Vue.extend(${1:HelloWorld})",
+      "\t\tconst vm = new Constructor().$mount()",
+      "\t\texpect(vm.$el.querySelector('.hello h1').textContent)",
+      "\t\t\t.to.equal(${3:'Welcome to Your Vue.js App'})",
+      "\t})",
+      "})"
+    ],
+    "description": "unit test component"
   }
 }

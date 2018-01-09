@@ -1,58 +1,56 @@
 {
-	"Vuex Store": {
-		"prefix": "vstore",
-		"body": [
-			"import Vue from 'vue';",
-			"import Vuex from 'vuex';",
-			"",
-			"Vue.use(Vuex);",
-			"",
-			"export const store = new Vuex.Store({",
-			"\tstate: {",
-			"\t\t${1:key}: ${2:value}",
-			"\t}",
-			"});"
-		],
-		"description": "Base for Vuex store"
+  "Vuex Store": {
+    "prefix": "vstore",
+    "body": [
+      "import Vue from 'vue';",
+      "import Vuex from 'vuex';",
+      "",
+      "Vue.use(Vuex);",
+      "",
+      "export const store = new Vuex.Store({",
+      "\tstate: {",
+      "\t\t${1:key}: ${2:value}",
+      "\t}",
+      "});"
+    ],
+    "description": "Base for Vuex store"
   },
-	"Vuex Getters": {
-		"prefix": "vgetter",
-		"body": [
-			"getters: {",
-			"\t${1:value}: state => {",
-			"\t\treturn state.${1:value};",
-			"\t}",
-			"}"
-		],
-		"description": "vuex getter"
-	},
-	"Vuex Mutation": {
-		"prefix": "vmutation",
-		"body": [
-			"mutations: {",
-			"\t${1:updateValue}(state, ${3:payload}) {",
-			"\t\tstate.${2:value} = ${3:payload};",
-			"\t}",
-			"}"
-		],
-		"description": "vuex mutation"
-	},
-	"Vuex Action": {
-		"prefix": "vaction",
-		"body": [
-			"actions: {",
-			"\t${1:updateValue}({commit}, ${2:payload}) {",
-			"\t\tcommit('${1:updateValue}', ${2:payload});",
-			"\t}",
-			"}"
-		],
-		"description": "vuex action"
+  "Vuex Getters": {
+    "prefix": "vgetter",
+    "body": [
+      "getters: {",
+      "\t${1:value}: state => {",
+      "\t\treturn state.${1:value};",
+      "\t}",
+      "}"
+    ],
+    "description": "vuex getter"
   },
-	"Vue Import Vuex Store": {
-		"prefix": "vstore-import",
-		"body": [
-			"import { store } from './store/store';"
-		],
-		"description": "import vuex store into main.js"
-	}
+  "Vuex Mutation": {
+    "prefix": "vmutation",
+    "body": [
+      "mutations: {",
+      "\t${1:updateValue}(state, ${3:payload}) {",
+      "\t\tstate.${2:value} = ${3:payload};",
+      "\t}",
+      "}"
+    ],
+    "description": "vuex mutation"
+  },
+  "Vuex Action": {
+    "prefix": "vaction",
+    "body": [
+      "actions: {",
+      "\t${1:updateValue}({commit}, ${2:payload}) {",
+      "\t\tcommit('${1:updateValue}', ${2:payload});",
+      "\t}",
+      "}"
+    ],
+    "description": "vuex action"
+  },
+  "Vue Import Vuex Store": {
+    "prefix": "vstore-import",
+    "body": ["import { store } from './store/index';"],
+    "description": "import vuex store into main.js"
+  }
 }
