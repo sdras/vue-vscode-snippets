@@ -14,7 +14,7 @@
     "body": [
       "computed: {",
       "\t${1:name}() {",
-      "\t\treturn this.${2:data} ${0}",
+      "\t\treturn this.\\${2:data} ${0}",
       "\t}",
       "},"
     ],
@@ -49,7 +49,7 @@
     "description": "Import one component into another"
   },
   "Vue Import into the Component": {
-    "prefix": "vimport-c",
+    "prefix": "vcomponents",
     "body": ["components: {", "\t${1:New},", "}"],
     "description": "Import one component into another, within export statement"
   },
@@ -139,7 +139,7 @@
     "prefix": "vcommit",
     "body": [
       "${1:mutationName}() {",
-      "\tthis.\$store.commit('${1:mutationName}', ${2:payload})",
+      "\tthis.\\$store.commit('${1:mutationName}', ${2:payload})",
       "}"
     ],
     "description": "commit to vuex store in methods for mutation"
@@ -148,7 +148,7 @@
     "prefix": "vdispatch",
     "body": [
       "${1:actionName}() {",
-      "\tthis.$store.dispatch('${1:actionName}', ${2:payload})",
+      "\tthis.\\$store.dispatch('${1:actionName}', ${2:payload})",
       "}"
     ],
     "description": "dispatch to vuex store in methods for action"
