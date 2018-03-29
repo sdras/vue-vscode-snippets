@@ -8,6 +8,15 @@
     ],
     "description": "vfor statement"
   },
+  "Vue v-for with index": {
+    "prefix": "vfori",
+    "body": [
+      "<${1:div} v-for=\"(${2:item}, ${3:i}) in ${2:item}s\" :key=\"${3:i}\">",
+      "\t{{ ${2:item} }}",
+      "</${1:div}>"
+    ],
+    "description": "vfor statement with index"
+  },
   "Vue v-model Directive": {
     "prefix": "vmodel",
     "body": ["<input v-model=\"${1:data}\" type=\"text\" />"],
