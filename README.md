@@ -41,6 +41,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | Snippet           | Purpose                             |
 | ----------------- | ----------------------------------- |
 | `vfor`            | v-for directive                     |
+| `vfori`           | v-for directive with index          |
 | `vmodel`          | Semantic v-model directive          |
 | `vmodel-num`      | Semantic v-model number directive   |
 | `von`             | v-on click handler with arguments   |
