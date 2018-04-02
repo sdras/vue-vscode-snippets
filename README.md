@@ -64,7 +64,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vwatcher`       | Vue watcher with new and old value args                                  |
 | `vprops`         | Props with type and default                                              |
 | `vimport`        | Import one component into another                                        |
-| `vimport-c`      | Import one component into another within the export statement            |
+| `vcomponents`    | Import one component into another within the export statement            |
 | `vimport-export` | Import one component into another and use it within the export statement |
 | `vfilter`        | Vue filter                                                               |
 | `vmixin`         | Create a Vue Mixin                                                       |
