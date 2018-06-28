@@ -31,6 +31,21 @@
     ],
     "description": "vue watcher"
   },
+  "Vue Watchers with Options": {
+    "prefix": "vwatcher-options",
+    "body": [
+      "watch: {",
+      "\t${1:data}: {",
+      "\t\timmediate: ${2:true},",
+      "\t\tdeep: ${3:true},",
+      "\t\thandler(${4:newValue}, ${5:oldValue}) {",
+      "\t\t\t${0}",
+      "\t\t}",
+      "\t}",
+      "},"
+    ],
+    "description": "vue watcher with options"
+  },
   "Vue Props with Default": {
     "prefix": "vprops",
     "body": [
