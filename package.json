@@ -42,6 +42,18 @@
         "path": "./snippets/nuxt-config.json"
       },
       {
+        "language": "typescript",
+        "path": "./snippets/vue-script.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-script-vuex.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/nuxt-config.json"
+      },
+      {
         "language": "plaintext",
         "path": "./snippets/plaintext.json"
       }
