@@ -19,6 +19,29 @@
 			"</style>"
 		],
 		"description": "Base for Vue File"
+	},
+	"Vue Single File Component with Typescript": {
+		"prefix": "vbase-ts",
+		"body": [
+			"<template>",
+			"\t<div>",
+			"",
+			"\t</div>",
+			"</template>",
+			"",
+			"<script lang=\"ts\">",
+			"\timport Vue from 'vue'",
+			"",
+        	"\texport default Vue.extend({",
+			"\t\t${0}",
+			"\t})",
+			"</script>",
+			"",
+			"<style scoped>",
+			"",
+			"</style>"
+		],
+		"description": "Base for Vue File with Typescript"
 	}
 }
 
