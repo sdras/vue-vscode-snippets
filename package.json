@@ -14,7 +14,7 @@
   },
   "scripts": {
     "build": "vsce package -o vue-vscode-snippets-$npm_package_version.vsix",
-    "install": "code --install-extension vue-vscode-snippets-$npm_package_version.vsix"
+    "install": "yarn build && code --install-extension vue-vscode-snippets-$npm_package_version.vsix"
   },
   "keywords": ["Vue", "Vue 2", "Vue Snippets"],
   "extensionDependencies": ["octref.vetur"],
