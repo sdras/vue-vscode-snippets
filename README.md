@@ -53,6 +53,9 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vclass-obj-mult` | Multiple conditional class bindings |
 | `vanim`           | Transition component with JS hooks  |
 | `vnuxtl`          | Nuxt Routing Link                   |
+| `vroutename`      | router-link Named Routing           |
+| `vroutenameparam` | router-link Named with Parameters   |
+| `vroutepath`      | router-link Path Routing Link       |
 
 ### Script
 
