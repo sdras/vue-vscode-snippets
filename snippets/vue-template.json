@@ -88,5 +88,20 @@
     "prefix": "vnuxtl",
     "body": ["<nuxt-link to=\"/${1:page}\">${1:page}</nuxt-link>"],
     "description": "nuxt routing link"
+  },
+  "Vue Named Routing Link": {
+    "prefix": "vroutename",
+    "body": ["<router-link :to=\"{name: '${1:name}'}\">${2:LinkTitle}</router-link>"],
+    "description": "Named routing link"
+  }, 
+  "Vue Named Routing Link with Params": {
+    "prefix": "vroutenameparam",
+    "body": ["<router-link :to=\"{name: '${1:name}', params:{${2:id}: '${3:value}'} }\">${4:LinkTitle}</router-link>"],
+    "description": "Named routing link w/ params"
+  },
+  "Vue Path Routing Link": {
+    "prefix": "vroutepath",
+    "body": ["<router-link to=\"${1:path}\">${2:LinkTitle}</router-link>"],
+    "description": "Path routing link"
   }
 }
