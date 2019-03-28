@@ -52,5 +52,31 @@
     "prefix": "vstore-import",
     "body": ["import { store } from './store/index';"],
     "description": "import vuex store into main.js"
+  },
+  "Vuex Module": {
+    "prefix": "vmodule",
+    "body": [
+      "export default {",
+      "\tstate: {",
+      "\t\tvalue: 'my value'",
+      "\t},",
+      "\tgetters: {",
+      "\t\tvalue: state => {",
+      "\t\t\treturn state.value;",
+      "\t\t}",
+      "\t},",
+      "\tactions: {",
+      "\t\tupdateValue({commit}, payload) {",
+      "\t\t\tcommit('updateValue', payload);",
+      "\t\t}",
+      "\t},",
+      "\tmutations: {",
+      "\t\tupdateValue(state, payload) {",
+      "\t\t\tstate.value = payload;",
+      "\t\t}",
+      "\t}",
+      "};"
+    ],
+    "description": "vuex module"
   }
 }
