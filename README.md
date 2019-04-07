@@ -16,11 +16,11 @@ _Current version: Vue2_
 
 _Either_
 
-* click the extensions button (lowest square icon in the editor), and type in Vue VSCode Snippets, select the one by sdras
+- click the extensions button (lowest square icon in the editor), and type in Vue VSCode Snippets, select the one by sdras
 
 _or_
 
-* go here [vscode Extensions Marketplace](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
+- go here [vscode Extensions Marketplace](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
 
 ```javascript
 ext install Vue VSCode Snippets
@@ -32,78 +32,86 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Vue
 
-| Snippet | Purpose                    |
-| ------- | -------------------------- |
-| `vbase` | Single file component base |
+Snippet | Purpose
+------- | --------------------------
+`vbase` | Single file component base
 
 ### Template
 
-| Snippet           | Purpose                             |
-| ----------------- | ----------------------------------- |
-| `vfor`            | v-for directive                     |
-| `vmodel`          | Semantic v-model directive          |
-| `vmodel-num`      | Semantic v-model number directive   |
-| `von`             | v-on click handler with arguments   |
-| `vel-props`       | Component element with props        |
-| `vsrc`            | Image src binding                   |
-| `vstyle`          | Inline style binding                |
-| `vstyle-obj`      | Inline style binding with objects   |
-| `vclass`          | Class binding                       |
-| `vclass-obj`      | Class binding with objects          |
-| `vclass-obj-mult` | Multiple conditional class bindings |
-| `vanim`           | Transition component with JS hooks  |
-| `vnuxtl`          | Nuxt Routing Link                   |
-| `vroutename`      | router-link Named Routing           |
-| `vroutenameparam` | router-link Named with Parameters   |
-| `vroutepath`      | router-link Path Routing Link       |
+Snippet           | Purpose
+----------------- | -----------------------------------
+`vfor`            | v-for directive
+`vmodel`          | Semantic v-model directive
+`vmodel-num`      | Semantic v-model number directive
+`von`             | v-on click handler with arguments
+`vel-props`       | Component element with props
+`vsrc`            | Image src binding
+`vstyle`          | Inline style binding
+`vstyle-obj`      | Inline style binding with objects
+`vclass`          | Class binding
+`vclass-obj`      | Class binding with objects
+`vclass-obj-mult` | Multiple conditional class bindings
+`vanim`           | Transition component with JS hooks
+`vnuxtl`          | Nuxt Routing Link
+`vroutename`      | router-link Named Routing
+`vroutenameparam` | router-link Named with Parameters
+`vroutepath`      | router-link Path Routing Link
 
 ### Script
 
-| Snippet          | Purpose                                                                  |
-| ---------------- | ------------------------------------------------------------------------ |
-| `vdata`          | Component data as a function                                             |
-| `vmethod`        | Vue method                                                               |
-| `vcomputed`      | Vue computed property                                                    |
-| `vwatcher`       | Vue watcher with new and old value args                                  |
-| `vprops`         | Props with type and default                                              |
-| `vimport`        | Import one component into another                                        |
-| `vcomponents`    | Import one component into another within the export statement            |
-| `vimport-export` | Import one component into another and use it within the export statement |
-| `vfilter`        | Vue filter                                                               |
-| `vmixin`         | Create a Vue Mixin                                                       |
-| `vmixin-use`     | Bring a mixin into a component to use                                    |
-| `vc-direct`      | Vue create a custom directive                                            |
-| `vimport-lib`    | Import a library                                                         |
-| `vimport-gsap`   | Import GreenSock with Timeline and Eases                                 |
-| `vanimhook-js`   | Using the Transition component JS hooks in methods                       |
-| `vcommit`        | Commit to Vuex store in methods for mutation                             |
-| `vdispatch`      | Dispatch to Vuex store in methods for action                             |
-| `vtest`          | A simple unit testing component                                          |
-| `vinc`           | incrementer                                                              |
-| `vdec`           | decrementer                                                              |
+Snippet          | Purpose
+---------------- | ------------------------------------------------------------------------
+`vdata`          | Component data as a function
+`vmethod`        | Vue method
+`vcomputed`      | Vue computed property
+`vwatcher`       | Vue watcher with new and old value args
+`vbeforecreate`  | beforeCreate lifecycle method
+`vcreated`       | created lifecycle method
+`vbeforemount`   | beforeMount lifecycle method
+`vmounted`       | vmounted lifecycle method
+`vbeforeupdate`  | beforeUpdate lifecycle method
+`vupdated`       | updated lifecycle method
+`vbeforedestroy` | beforeDestroy lifecycle method
+`vdestroyed`     | destroyed lifecycle method
+`vprops`         | Props with type and default
+`vimport`        | Import one component into another
+`vcomponents`    | Import one component into another within the export statement
+`vimport-export` | Import one component into another and use it within the export statement
+`vfilter`        | Vue filter
+`vmixin`         | Create a Vue Mixin
+`vmixin-use`     | Bring a mixin into a component to use
+`vc-direct`      | Vue create a custom directive
+`vimport-lib`    | Import a library
+`vimport-gsap`   | Import GreenSock with Timeline and Eases
+`vanimhook-js`   | Using the Transition component JS hooks in methods
+`vcommit`        | Commit to Vuex store in methods for mutation
+`vdispatch`      | Dispatch to Vuex store in methods for action
+`vtest`          | A simple unit testing component
+`vinc`           | incrementer
+`vdec`           | decrementer
 
 ### Vuex
 
-| Snippet         | Purpose                        |
-| --------------- | ------------------------------ |
-| `vstore`        | Base for Vuex store.js         |
-| `vgetter`       | Vuex Getter                    |
-| `vmutation`     | Vuex Mutation                  |
-| `vaction`       | Vuex Action                    |
-| `vstore-import` | Import vuex store into main.js |
+Snippet         | Purpose
+--------------- | ------------------------------
+`vstore`        | Base for Vuex store.js
+`vgetter`       | Vuex Getter
+`vmutation`     | Vuex Mutation
+`vaction`       | Vuex Action
+`vstore-import` | Import vuex store into main.js
 
 ### Nuxt Config
 
-| Snippet | Purpose                                                 |
-| ------- | ------------------------------------------------------- |
-| `nfont` | link to include fonts in a nuxt project, in nuxt-config |
-| `ncss`  | link to css assets such as normalize                    |
+Snippet | Purpose
+------- | -------------------------------------------------------
+`nfont` | link to include fonts in a nuxt project, in nuxt-config
+`ncss`  | link to css assets such as normalize
 
 ### Extra (plaintext)
 
-| Snippet     | Purpose                 |
-| ----------- | ----------------------- |
-| `gitignore` | .gitignore file presets |
+Snippet     | Purpose
+----------- | -----------------------
+`gitignore` | .gitignore file presets
 
 ## Contributing
 

@@ -20,6 +20,46 @@
     ],
     "description": "computed value"
   },
+  "Vue Lifecycle beforeCreate": {
+    "prefix": "vbeforecreate",
+    "body": ["beforeCreate () {", "\t${0};", "},"],
+    "description": "beforeCreate lifecycle method"
+  },
+  "Vue Lifecycle created": {
+    "prefix": "vcreated",
+    "body": ["created () {", "\t${0};", "},"],
+    "description": "created lifecycle method"
+  },
+  "Vue Lifecycle beforeMount": {
+    "prefix": "vbeforemount",
+    "body": ["beforeMount () {", "\t${0};", "},"],
+    "description": "beforeMount lifecycle method"
+  },
+  "Vue Lifecycle mounted": {
+    "prefix": "vmounted",
+    "body": ["mounted () {", "\t${0};", "},"],
+    "description": "mounted lifecycle method"
+  },
+  "Vue Lifecycle beforeUpdate": {
+    "prefix": "vbeforeupdate",
+    "body": ["beforeUpdate () {", "\t${0};", "},"],
+    "description": "beforeUpdate lifecycle method"
+  },
+  "Vue Lifecycle updated": {
+    "prefix": "vupdated",
+    "body": ["updated () {", "\t${0};", "},"],
+    "description": "updated lifecycle method"
+  },
+  "Vue Lifecycle beforeDestroy": {
+    "prefix": "vbeforedestroy",
+    "body": ["beforeDestroy () {", "\t${0};", "},"],
+    "description": "beforeDestroy lifecycle method"
+  },
+  "Vue Lifecycle destroyed": {
+    "prefix": "vdestroyed",
+    "body": ["destroyed () {", "\t${0};", "},"],
+    "description": "destroyed lifecycle method"
+  },
   "Vue Watchers": {
     "prefix": "vwatcher",
     "body": [
