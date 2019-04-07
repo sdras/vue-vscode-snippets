@@ -121,6 +121,21 @@
     ],
     "description": "import a component and include it in export default"
   },
+  "Vue MapGetter": {
+    "prefix": "vmapgetter",
+    "body": [
+      "import { mapGetters } from 'vuex'",
+      "",
+      "export default {",
+      "\tcomputed: {",
+      "\t\t...mapGetters([",
+      "\t\t\t${1:'nameOfGetter'},",
+      "\t\t])",
+      "\t},",
+      "}"
+    ],
+    "description": "map getters inside a vue component"
+  },
   "Vue Filter": {
     "prefix": "vfilter",
     "body": [
@@ -234,5 +249,20 @@
       "})"
     ],
     "description": "unit test component"
+  },
+  "Vue.config.js Import": {
+    "prefix": "vconfig",
+    "body": [
+      "module.exports = {",
+      "\tcss: {",
+      "\t\tloaderOptions: {",
+      "\t\t\t${1:sass}: {",
+      "\t\t\t\tdata: `${2:@import '@/styles/_variables.scss';}`",
+      "\t\t\t}",
+      "\t\t}",
+      "\t}",
+      "}"
+    ],
+    "description": "vue.config.js"
   }
 }

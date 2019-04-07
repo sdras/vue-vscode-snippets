@@ -79,6 +79,7 @@ Snippet          | Purpose
 `vimport`        | Import one component into another
 `vcomponents`    | Import one component into another within the export statement
 `vimport-export` | Import one component into another and use it within the export statement
+`vmapgetter`     | import mapGetter from Vuex into vue component component
 `vfilter`        | Vue filter
 `vmixin`         | Create a Vue Mixin
 `vmixin-use`     | Bring a mixin into a component to use
@@ -91,6 +92,7 @@ Snippet          | Purpose
 `vtest`          | A simple unit testing component
 `vinc`           | incrementer
 `vdec`           | decrementer
+`vconfig`        | vue.config.js file, example imports a sass file into every component
 
 ### Vuex
 
