@@ -80,7 +80,9 @@ Snippet          | Purpose
 `vcomponents`    | Import one component into another within the export statement
 `vimport-export` | Import one component into another and use it within the export statement
 `vmapstate`      | import mapState from Vuex into vue component component
-`vmapgetter`     | import mapGetter from Vuex into vue component component
+`vmapgetters`    | import mapGetters from Vuex into vue component component
+`vmapmutations`  | import mapMutations from Vuex into vue component component
+`vmapactions`    | import mapActions from Vuex into vue component component
 `vfilter`        | Vue filter
 `vmixin`         | Create a Vue Mixin
 `vmixin-use`     | Bring a mixin into a component to use

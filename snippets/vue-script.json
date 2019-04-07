@@ -136,8 +136,8 @@
     ],
     "description": "map getters inside a vue component"
   },
-  "Vue MapGetter": {
-    "prefix": "vmapgetter",
+  "Vue MapGetters": {
+    "prefix": "vmapgetters",
     "body": [
       "import { mapGetters } from 'vuex'",
       "",
@@ -149,7 +149,37 @@
       "\t},",
       "}"
     ],
-    "description": "map getters inside a vue component"
+    "description": "mapgetters inside a vue component"
+  },
+  "Vue MapMutations": {
+    "prefix": "vmapmutations",
+    "body": [
+      "import { mapMutations } from 'vuex'",
+      "",
+      "export default {",
+      "\tmethods: {",
+      "\t\t...mapMutations([",
+      "\t\t\t${1:'nameOfMutation'}, //also supports payload `this.nameOfMutation(amount)` ",
+      "\t\t])",
+      "\t},",
+      "}"
+    ],
+    "description": "mapmutations inside a vue component"
+  },
+  "Vue MapActions": {
+    "prefix": "vmapactions",
+    "body": [
+      "import { mapActions } from 'vuex'",
+      "",
+      "export default {",
+      "\tmethods: {",
+      "\t\t...mapActions([",
+      "\t\t\t${1:'nameOfAction'}, //also supports payload `this.nameOfAction(amount)` ",
+      "\t\t])",
+      "\t},",
+      "}"
+    ],
+    "description": "mapactions inside a vue component"
   },
   "Vue Filter": {
     "prefix": "vfilter",
