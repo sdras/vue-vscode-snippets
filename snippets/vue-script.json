@@ -121,6 +121,21 @@
     ],
     "description": "import a component and include it in export default"
   },
+  "Vue MapState": {
+    "prefix": "vmapstate",
+    "body": [
+      "import { mapState } from 'vuex'",
+      "",
+      "export default {",
+      "\tcomputed: {",
+      "\t\t...mapState([",
+      "\t\t\t${1:'nameOfState'},",
+      "\t\t])",
+      "\t},",
+      "}"
+    ],
+    "description": "map getters inside a vue component"
+  },
   "Vue MapGetter": {
     "prefix": "vmapgetter",
     "body": [
