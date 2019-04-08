@@ -8,7 +8,7 @@
 			"\t</div>",
 			"</template>",
 			"",
-			"<script lang=\"ts\">",
+			"<script>",
 			"\texport default {",
 			"\t\t${0}",
 			"\t}",
