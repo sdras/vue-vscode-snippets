@@ -14,7 +14,7 @@
     "body": [
       "computed: {",
       "\t${1:name}() {",
-      "\t\treturn this.\\${2:data} ${0}",
+      "\t\treturn this.${2:data} ${0}",
       "\t}",
       "},"
     ],
