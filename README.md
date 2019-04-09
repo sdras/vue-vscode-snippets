@@ -105,6 +105,7 @@ Snippet         | Purpose
 `vgetter`       | Vuex Getter
 `vmutation`     | Vuex Mutation
 `vaction`       | Vuex Action
+`vmodule`       | Vuex Module
 `vstore-import` | Import vuex store into main.js
 
 ### Nuxt Config
