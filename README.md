@@ -108,6 +108,20 @@ Snippet         | Purpose
 `vmodule`       | Vuex Module
 `vstore-import` | Import vuex store into main.js
 
+### Vue Router
+
+Snippet              | Purpose
+-------------------- | ------------------------------
+`vrouter`            | Base for    Vue       Router
+`vscrollbehavior`    | Vue  Router scrollBehavior
+`vbeforeeach`        | Vue  Router global    guards beforeEach
+`vbeforeresolve`     | Vue  Router global    guards beforeResolve
+`vaftereach`         | Vue  Router global    guards afterEach
+`vbeforeenter`       | Vue  Router per-route guard  beforeEnter
+`vbeforerouteenter`  | Vue  Router component guards beforeRouteEnter
+`vbeforerouteupdate` | Vue  Router component guards beforeRouteUpdate
+`vbeforerouteleave`  | Vue Router component guards beforeRouteLeave
+
 ### Nuxt Config
 
 Snippet | Purpose
