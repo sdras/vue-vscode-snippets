@@ -14,7 +14,7 @@
 			"\t}",
 			"</script>",
 			"",
-			"<style lang=\"scss\" scoped>",
+			"<style scoped>",
 			"",
 			"</style>"
 		],
@@ -32,7 +32,7 @@
 			"<script lang=\"ts\">",
 			"\timport Vue from 'vue'",
 			"",
-        	"\texport default Vue.extend({",
+			"\texport default Vue.extend({",
 			"\t\t${0}",
 			"\t})",
 			"</script>",
@@ -44,4 +44,3 @@
 		"description": "Base for Vue File with Typescript"
 	}
 }
-
