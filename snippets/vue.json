@@ -14,7 +14,7 @@
 			"\t}",
 			"</script>",
 			"",
-			"<style lang=\"scss\" scoped>",
+			"<style scoped>",
 			"",
 			"</style>"
 		],
@@ -32,7 +32,7 @@
 			"<script lang=\"ts\">",
 			"\timport Vue from 'vue'",
 			"",
-        	"\texport default Vue.extend({",
+			"\texport default Vue.extend({",
 			"\t\t${0}",
 			"\t})",
 			"</script>",
@@ -42,6 +42,26 @@
 			"</style>"
 		],
 		"description": "Base for Vue File with Typescript"
-	}
+	},
+	"Vue Single File Component With Scss": {
+		"prefix": "vbase-sccs",
+		"body": [
+			"<template>",
+			"\t<div>",
+			"",
+			"\t</div>",
+			"</template>",
+			"",
+			"<script>",
+			"\texport default {",
+			"\t\t${0}",
+			"\t}",
+			"</script>",
+			"",
+			"<style lang=\"scss\" scoped>",
+			"",
+			"</style>"
+		],
+		"description": "Base for Vue File"
+	},
 }
-
