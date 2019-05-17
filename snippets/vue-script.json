@@ -1,12 +1,24 @@
 {
   "Vue Data": {
     "prefix": "vdata",
-    "body": ["data() {", "\treturn {", "\t\t${1:key}: ${2:value}", "\t}", "},"],
+    "body": [
+      "data() {",
+      "\treturn {",
+      "\t\t${1:key}: ${2:value}",
+      "\t}",
+      "},"
+    ],
     "description": "Vue Component Data"
   },
   "Vue Methods": {
     "prefix": "vmethod",
-    "body": ["methods: {", "\t${1:name}() {", "\t\t${0}", "\t}", "},"],
+    "body": [
+      "methods: {",
+      "\t${1:name}() {",
+      "\t\t${0}",
+      "\t}",
+      "},"
+    ],
     "description": "vue method"
   },
   "Vue Computed": {
@@ -22,42 +34,74 @@
   },
   "Vue Lifecycle beforeCreate": {
     "prefix": "vbeforecreate",
-    "body": ["beforeCreate () {", "\t${0};", "},"],
+    "body": [
+      "beforeCreate () {",
+      "\t${0};",
+      "},"
+    ],
     "description": "beforeCreate lifecycle method"
   },
   "Vue Lifecycle created": {
     "prefix": "vcreated",
-    "body": ["created () {", "\t${0};", "},"],
+    "body": [
+      "created () {",
+      "\t${0};",
+      "},"
+    ],
     "description": "created lifecycle method"
   },
   "Vue Lifecycle beforeMount": {
     "prefix": "vbeforemount",
-    "body": ["beforeMount () {", "\t${0};", "},"],
+    "body": [
+      "beforeMount () {",
+      "\t${0};",
+      "},"
+    ],
     "description": "beforeMount lifecycle method"
   },
   "Vue Lifecycle mounted": {
     "prefix": "vmounted",
-    "body": ["mounted () {", "\t${0};", "},"],
+    "body": [
+      "mounted () {",
+      "\t${0};",
+      "},"
+    ],
     "description": "mounted lifecycle method"
   },
   "Vue Lifecycle beforeUpdate": {
     "prefix": "vbeforeupdate",
-    "body": ["beforeUpdate () {", "\t${0};", "},"],
+    "body": [
+      "beforeUpdate () {",
+      "\t${0};",
+      "},"
+    ],
     "description": "beforeUpdate lifecycle method"
   },
   "Vue Lifecycle updated": {
     "prefix": "vupdated",
-    "body": ["updated () {", "\t${0};", "},"],
+    "body": [
+      "updated () {",
+      "\t${0};",
+      "},"
+    ],
     "description": "updated lifecycle method"
   },
   "Vue Lifecycle beforeDestroy": {
     "prefix": "vbeforedestroy",
-    "body": ["beforeDestroy () {", "\t${0};", "},"],
+    "body": [
+      "beforeDestroy () {",
+      "\t${0};",
+      "},"
+    ],
     "description": "beforeDestroy lifecycle method"
   },
   "Vue Lifecycle destroyed": {
     "prefix": "vdestroyed",
-    "body": ["destroyed () {", "\t${0};", "},"],
+    "body": [
+      "destroyed () {",
+      "\t${0};",
+      "},"
+    ],
     "description": "destroyed lifecycle method"
   },
   "Vue Watchers": {
@@ -100,18 +144,24 @@
   },
   "Vue Import File": {
     "prefix": "vimport",
-    "body": ["import ${1:New} from './components/${1:New}.vue';"],
+    "body": [
+      "import ${1:New} from '@/components/${1:New}.vue';"
+    ],
     "description": "Import one component into another"
   },
   "Vue Import into the Component": {
     "prefix": "vcomponents",
-    "body": ["components: {", "\t${1:New},", "}"],
+    "body": [
+      "components: {",
+      "\t${1:New},",
+      "}"
+    ],
     "description": "Import one component into another, within export statement"
   },
   "Vue Import Export": {
     "prefix": "vimport-export",
     "body": [
-      "import ${1:Name} from './components/${1:Name}.vue'",
+      "import ${1:Name} from '@/components/${1:Name}.vue'",
       "",
       "export default {",
       "\tcomponents: {",
@@ -205,7 +255,9 @@
   },
   "Vue Use Mixin": {
     "prefix": "vmixin-use",
-    "body": ["mixins: [${1:mixinName}]"],
+    "body": [
+      "mixins: [${1:mixinName}]"
+    ],
     "description": "vue use mixin"
   },
   "Vue Custom Directive": {
@@ -221,14 +273,17 @@
   },
   "Vue Import Library": {
     "prefix": "vimport-lib",
-    "body": ["import { ${1:libName} } from '${1:libName}'"],
+    "body": [
+      "import { ${1:libName} } from '${1:libName}'"
+    ],
     "description": "import a library"
   },
   "Vue Import GSAP": {
     "prefix": "vimport-gsap",
-    "body": ["import { TimelineMax, ${1:Ease} } from 'gsap'"],
-    "description":
-      "component methods options that dispatch an action from vuex store."
+    "body": [
+      "import { TimelineMax, ${1:Ease} } from 'gsap'"
+    ],
+    "description": "component methods options that dispatch an action from vuex store."
   },
   "Vue Transition Methods with JavaScript Hooks": {
     "prefix": "vanimhook-js",
@@ -270,12 +325,16 @@
   },
   "Incrementer": {
     "prefix": "vinc",
-    "body": ["return ${1:this.num} += ${2:1}"],
+    "body": [
+      "return ${1:this.num} += ${2:1}"
+    ],
     "description": "increment"
   },
   "Decrementer": {
     "prefix": "vdec",
-    "body": ["return ${1:this.num} -= ${2:1}"],
+    "body": [
+      "return ${1:this.num} -= ${2:1}"
+    ],
     "description": "decrement"
   },
   "Unit Test": {
