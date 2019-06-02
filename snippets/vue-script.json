@@ -105,7 +105,7 @@
   },
   "Vue Import into the Component": {
     "prefix": "vcomponents",
-    "body": ["components: {", "\t${1:New},", "}"],
+    "body": ["components: {", "\t${1:New},", "},"],
     "description": "Import one component into another, within export statement"
   },
   "Vue Import Export": {
@@ -205,7 +205,7 @@
   },
   "Vue Use Mixin": {
     "prefix": "vmixin-use",
-    "body": ["mixins: [${1:mixinName}]"],
+    "body": ["mixins: [${1:mixinName}],"],
     "description": "vue use mixin"
   },
   "Vue Custom Directive": {
