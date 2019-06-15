@@ -43,6 +43,10 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/vue-script-router.json"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/nuxt-config.json"
       },
       {
@@ -52,6 +56,10 @@
       {
         "language": "typescript",
         "path": "./snippets/vue-script-vuex.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-script-router.json"
       },
       {
         "language": "typescript",
