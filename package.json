@@ -3,7 +3,7 @@
   "displayName": "Vue VSCode Snippets",
   "description": "Snippets that will supercharge your Vue workflow",
   "icon": "images/vue-logo.png",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "publisher": "sdras",
   "engines": {
     "vscode": "^1.14.0"
@@ -16,9 +16,17 @@
     "build": "vsce package -o vue-vscode-snippets-$npm_package_version.vsix",
     "install": "yarn build && code --install-extension vue-vscode-snippets-$npm_package_version.vsix"
   },
-  "keywords": ["Vue", "Vue 2", "Vue Snippets"],
-  "extensionDependencies": ["octref.vetur"],
-  "categories": ["Snippets"],
+  "keywords": [
+    "Vue",
+    "Vue 2",
+    "Vue Snippets"
+  ],
+  "extensionDependencies": [
+    "octref.vetur"
+  ],
+  "categories": [
+    "Snippets"
+  ],
   "contributes": {
     "snippets": [
       {
