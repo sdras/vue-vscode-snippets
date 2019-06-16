@@ -78,5 +78,32 @@
       "};"
     ],
     "description": "vuex module"
+  },
+  "Vuex Store 2": {
+    "prefix": "vstore2",
+    "body": [
+      "export const state = () => ({",
+      "\tvalue: 'myvalue'",
+      "})",
+      "",
+      "export const getters = {",
+      "\tgetterValue: state => {",
+      "\t\treturn state.value",
+      "\t}",
+      "}",
+      "",
+      "export const mutations = {",
+      "\tupdateValue: (state, payload) => {",
+      "\t\tstate.value = payload",
+      "\t}",
+      "}",
+      "",
+      "export const actions = {",
+      "\tupdateActionValue: ({ commit }, payload) => {",
+      "\t\tcommit('updateValue', payload)",
+      "\t}",
+      "}"
+    ],
+    "description": "vuex store 2"
   }
 }
