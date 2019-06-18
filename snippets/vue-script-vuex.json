@@ -99,7 +99,7 @@
       "}",
       "",
       "export const actions = {",
-      "\tupdateActionValue: ({ commit }, payload) => {",
+      "\tupdateActionValue({ commit }) {",
       "\t\tcommit('updateValue', payload)",
       "\t}",
       "}"
