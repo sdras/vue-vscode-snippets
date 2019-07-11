@@ -92,5 +92,16 @@
       "},"
     ],
     "description": "Vue Router component guards beforeRouteLeave"
+  },
+  "Vue Router Route": {
+    "prefix": "vroute-named",
+    "body": [
+      "{",
+      "\tpath: '${1:pathName}',",
+      "\tname: '${2:routeName}',",
+      "\tcomponent: () => import('./${3:pathToComponent}'),",
+      "},"
+    ],
+    "description": "Vue Router route with per route code-splitting"
   }
 }
