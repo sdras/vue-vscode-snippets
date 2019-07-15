@@ -27,6 +27,7 @@ ext install Vue VSCode Snippets
 ```
 
 You can enable tab completion (recommended) by opening `Code > Preferences > Settings` (on a Mac) and applying `"editor.tabCompletion": true` to your personal settings
+You can enable tab completion (recommended) by opening `Code > Preferences > Settings` (on a Mac) and applying `"editor.tabCompletion": "onlySnippets"` to your personal settings
 
 ## Snippets
 
