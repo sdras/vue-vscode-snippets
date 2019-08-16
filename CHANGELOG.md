@@ -4,6 +4,11 @@ All notable changes to the "vue-vscode-snippets" extension will be documented in
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.8.0
+
+- New snippet: Vue router
+- New snippet: vbase without scss
+
 ## 1.7.1
 
 - Make simpler action
