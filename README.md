@@ -36,6 +36,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | ----------- | ------------------------------------------ |
 | `vbase`     | Single file component base                 |
 | `vbase-css` | Single file component base with CSS        |
+| `vbase-pcss`| Single file component base with PostCSS    |
 | `vbase-ts`  | Single file component base with Typescript |
 
 ### Template

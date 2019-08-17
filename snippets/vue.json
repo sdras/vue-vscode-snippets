@@ -18,7 +18,28 @@
 			"",
 			"</style>"
 		],
-		"description": "Base for Vue File"
+		"description": "Base for Vue File with SCSS"
+	},
+	"Vue Single File Component with postcss": {
+		"prefix": "vbase-pcss",
+		"body": [
+			"<template>",
+			"\t<div>",
+			"",
+			"\t</div>",
+			"</template>",
+			"",
+			"<script>",
+			"\texport default {",
+			"\t\t${0}",
+			"\t}",
+			"</script>",
+			"",
+			"<style lang=\"postcss\" scoped>",
+			"",
+			"</style>"
+		],
+		"description": "Base for Vue File with PostCSS"
 	},
 	"Vue Single File Component with Css": {
 		"prefix": "vbase-css",
@@ -39,7 +60,7 @@
 			"",
 			"</style>"
 		],
-		"description": "Base for Vue File"
+		"description": "Base for Vue File with CSS"
 	},
 	"Vue Single File Component with Typescript": {
 		"prefix": "vbase-ts",
