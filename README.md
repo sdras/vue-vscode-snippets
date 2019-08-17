@@ -32,11 +32,11 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Vue
 
-| Snippet    | Purpose                                    |
-| ---------- | ------------------------------------------ |
-| `vbase`    | Single file component base                 |
-| `vbase-css`| Single file component base with Css        |
-| `vbase-ts` | Single file component base with Typescript |
+| Snippet     | Purpose                                    |
+| ----------- | ------------------------------------------ |
+| `vbase`     | Single file component base                 |
+| `vbase-css` | Single file component base with CSS        |
+| `vbase-ts`  | Single file component base with Typescript |
 
 ### Template
 
@@ -113,7 +113,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 | Snippet              | Purpose                                       |
 | -------------------- | --------------------------------------------- |
-| `vrouter`            | Base for Vue Router                           |
+| `vrouter`            | Vue Router base                               |
 | `vscrollbehavior`    | Vue Router scrollBehavior                     |
 | `vbeforeeach`        | Vue Router global guards beforeEach           |
 | `vbeforeresolve`     | Vue Router global guards beforeResolve        |
