@@ -74,3 +74,4 @@ jspm_packages
 # VS Code
 vsc-extension-quickstart.md
 *.vsix
+.vscode
