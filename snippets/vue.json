@@ -84,6 +84,31 @@
 			"</style>"
 		],
 		"description": "Base for Vue File with Typescript"
+    },
+    "Vue Single File Component with Typescript class-style": {
+		"prefix": "vbase-ts-class",
+		"body": [
+			"<template>",
+			"\t<div>",
+			"",
+			"\t</div>",
+			"</template>",
+			"",
+			"<script lang=\"ts\">",
+            "\timport Vue from 'vue';",
+            "\timport { Component } from 'vue-property-decorator';",
+            "",
+            "\t@Component({})",
+        	"\texport default class ClassName extends Vue {",
+			"\t\t${0}",
+			"\t}",
+			"</script>",
+			"",
+			"<style scoped>",
+			"",
+			"</style>"
+		],
+		"description": "Base for Vue File with Typescript class-style"
 	}
 }
 
