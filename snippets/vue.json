@@ -84,6 +84,27 @@
 			"</style>"
 		],
 		"description": "Base for Vue File with Typescript"
+	},
+	"Vue Single File Component with Pug": {
+		"prefix": "vbase-pug",
+		"body": [
+			"<template lang=\"pug\">",
+			"\t<div>",
+			"",
+			"\t</div>",
+			"</template>",
+			"",
+			"<script>",
+			"\texport default {",
+			"\t\t${0}",
+			"\t}",
+			"</script>",
+			"",
+			"<style lang=\"scss\" scoped>",
+			"",
+			"</style>"
+		],
+		"description": "Base for Vue File with Pug and SCSS"
 	}
 }
 
