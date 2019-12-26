@@ -72,10 +72,6 @@
       {
         "language": "typescript",
         "path": "./snippets/nuxt-config.json"
-      },
-      {
-        "language": "plaintext",
-        "path": "./snippets/plaintext.json"
       }
     ]
   }
