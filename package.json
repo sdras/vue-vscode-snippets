@@ -58,6 +58,10 @@
         "path": "./snippets/nuxt-config.json"
       },
       {
+        "language": "javascript",
+        "path": "./snippets/nuxt-script.json"
+      },
+      {
         "language": "typescript",
         "path": "./snippets/vue-script.json"
       },
@@ -72,6 +76,10 @@
       {
         "language": "typescript",
         "path": "./snippets/nuxt-config.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/nuxt-script.json"
       },
       {
         "language": "plaintext",
