@@ -32,12 +32,13 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Vue
 
-| Snippet     | Purpose                                    |
-| ----------- | ------------------------------------------ |
-| `vbase`     | Single file component base with SCSS       |
-| `vbase-css` | Single file component base with CSS        |
-| `vbase-pcss`| Single file component base with PostCSS    |
-| `vbase-ts`  | Single file component base with Typescript |
+| Snippet      | Purpose                                    |
+| -----------  | ------------------------------------------ |
+| `vbase`      | Single file component base with SCSS       |
+| `vbase-sass` | Single file component base with SASS       |
+| `vbase-css`  | Single file component base with CSS        |
+| `vbase-less` | Single file component base with LESS       |
+| `vbase-ts`   | Single file component base with Typescript |
 
 ### Template
 
