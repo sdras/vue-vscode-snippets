@@ -197,9 +197,9 @@
     "body": [
       "const ${1:mixinName} = {",
       "\tmounted() {",
-      "\t\tconsole.log('hello from mixin!')",
+      "\t\tconsole.log('hello from mixin!');",
       "\t},",
-      "}"
+      "};"
     ],
     "description": "vue mixin"
   },
