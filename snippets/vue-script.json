@@ -124,7 +124,7 @@
   "Vue MapState": {
     "prefix": "vmapstate",
     "body": [
-      "import { mapState } from 'vuex'",
+      "import { mapState } from 'vuex';",
       "",
       "export default {",
       "\tcomputed: {",
