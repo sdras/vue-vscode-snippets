@@ -53,7 +53,7 @@
     "body": [
       "router.afterEach((to, from) => {",
       "\t",
-      "};"
+      "});"
     ],
     "description": "Vue Router global guards afterEach"
   },
