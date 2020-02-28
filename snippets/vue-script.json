@@ -263,14 +263,14 @@
     "prefix": "vdispatch",
     "body": [
       "${1:actionName}() {",
-      "\tthis.\\$store.dispatch('${1:actionName}', ${2:payload})",
+      "\tthis.\\$store.dispatch('${1:actionName}', ${2:payload});",
       "}"
     ],
     "description": "dispatch to vuex store in methods for action"
   },
   "Incrementer": {
     "prefix": "vinc",
-    "body": ["return ${1:this.num} += ${2:1}"],
+    "body": ["return ${1:this.num} += ${2:1};"],
     "description": "increment"
   },
   "Decrementer": {
