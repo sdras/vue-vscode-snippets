@@ -254,7 +254,7 @@
     "prefix": "vcommit",
     "body": [
       "${1:mutationName}() {",
-      "\tthis.\\$store.commit('${1:mutationName}', ${2:payload})",
+      "\tthis.\\$store.commit('${1:mutationName}', ${2:payload});",
       "}"
     ],
     "description": "commit to vuex store in methods for mutation"
