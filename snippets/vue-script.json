@@ -169,7 +169,7 @@
   "Vue MapActions": {
     "prefix": "vmapactions",
     "body": [
-      "import { mapActions } from 'vuex'",
+      "import { mapActions } from 'vuex';",
       "",
       "export default {",
       "\tmethods: {",
@@ -177,7 +177,7 @@
       "\t\t\t${1:'nameOfAction'}, //also supports payload `this.nameOfAction(amount)` ",
       "\t\t])",
       "\t},",
-      "}"
+      "};"
     ],
     "description": "mapactions inside a vue component"
   },
@@ -221,7 +221,7 @@
   },
   "Vue Import Library": {
     "prefix": "vimport-lib",
-    "body": ["import { ${1:libName} } from '${1:libName}'"],
+    "body": ["import { ${1:libName} } from '${1:libName}';"],
     "description": "import a library"
   },
   "Vue Import GSAP": {
