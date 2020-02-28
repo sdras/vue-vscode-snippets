@@ -12,7 +12,7 @@
       "\tmode: 'history',",
       "\troutes: [",
       "\t\t{ path: '/path', component: component }",
-      "\t}",
+      "\t]",
       "});"
     ],
     "description": "Base for Vue Router"
