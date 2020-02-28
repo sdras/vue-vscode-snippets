@@ -154,7 +154,7 @@
   "Vue MapMutations": {
     "prefix": "vmapmutations",
     "body": [
-      "import { mapMutations } from 'vuex'",
+      "import { mapMutations } from 'vuex';",
       "",
       "export default {",
       "\tmethods: {",
@@ -162,7 +162,7 @@
       "\t\t\t${1:'nameOfMutation'}, //also supports payload `this.nameOfMutation(amount)` ",
       "\t\t])",
       "\t},",
-      "}"
+      "};"
     ],
     "description": "mapmutations inside a vue component"
   },
