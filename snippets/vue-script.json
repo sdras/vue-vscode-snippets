@@ -281,17 +281,17 @@
   "Unit Test": {
     "prefix": "vtest",
     "body": [
-      "import Vue from 'vue'",
-      "import ${1:HelloWorld} from './components/${1:HelloWorld}'",
+      "import Vue from 'vue';",
+      "import ${1:HelloWorld} from './components/${1:HelloWorld}';",
       "",
       "describe('${1:HelloWorld}.vue', () => {",
       "\tit('${2:should render correct contents}', () => {",
-      "\t\tconst Constructor = Vue.extend(${1:HelloWorld})",
-      "\t\tconst vm = new Constructor().$mount()",
+      "\t\tconst Constructor = Vue.extend(${1:HelloWorld});",
+      "\t\tconst vm = new Constructor().$mount();",
       "\t\texpect(vm.$el.querySelector('.hello h1').textContent)",
-      "\t\t\t.to.equal(${3:'Welcome to Your Vue.js App'})",
-      "\t})",
-      "})"
+      "\t\t\t.to.equal(${3:'Welcome to Your Vue.js App'});",
+      "\t});",
+      "});"
     ],
     "description": "unit test component"
   },
