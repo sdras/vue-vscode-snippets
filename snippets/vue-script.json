@@ -117,7 +117,7 @@
       "\tcomponents: {",
       "\t\t${1:Name}",
       "\t},",
-      "}"
+      "};"
     ],
     "description": "import a component and include it in export default"
   },
@@ -132,7 +132,7 @@
       "\t\t\t${1:'nameOfState'},",
       "\t\t])",
       "\t},",
-      "}"
+      "};"
     ],
     "description": "map getters inside a vue component"
   },
@@ -147,7 +147,7 @@
       "\t\t\t${1:'nameOfGetter'},",
       "\t\t])",
       "\t},",
-      "}"
+      "};"
     ],
     "description": "mapgetters inside a vue component"
   },
