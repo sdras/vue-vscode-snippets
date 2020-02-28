@@ -111,7 +111,7 @@
   "Vue Import Export": {
     "prefix": "vimport-export",
     "body": [
-      "import ${1:Name} from '@/components/${1:Name}.vue'",
+      "import ${1:Name} from '@/components/${1:Name}.vue';",
       "",
       "export default {",
       "\tcomponents: {",
