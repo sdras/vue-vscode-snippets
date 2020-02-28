@@ -226,7 +226,7 @@
   },
   "Vue Import GSAP": {
     "prefix": "vimport-gsap",
-    "body": ["import { TimelineMax, ${1:Ease} } from 'gsap'"],
+    "body": ["import { TimelineMax, ${1:Ease} } from 'gsap';"],
     "description":
       "component methods options that dispatch an action from vuex store."
   },
