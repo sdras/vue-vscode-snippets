@@ -44,7 +44,7 @@
     "body": [
       "router.beforeResolve((to, from, next) => {",
       "\t${1:next();}",
-      "};"
+      "});"
     ],
     "description": "Vue Router global guards beforeResolve"
   },
