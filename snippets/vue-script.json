@@ -275,7 +275,7 @@
   },
   "Decrementer": {
     "prefix": "vdec",
-    "body": ["return ${1:this.num} -= ${2:1}"],
+    "body": ["return ${1:this.num} -= ${2:1};"],
     "description": "decrement"
   },
   "Unit Test": {
