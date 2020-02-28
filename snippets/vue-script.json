@@ -139,7 +139,7 @@
   "Vue MapGetters": {
     "prefix": "vmapgetters",
     "body": [
-      "import { mapGetters } from 'vuex'",
+      "import { mapGetters } from 'vuex';",
       "",
       "export default {",
       "\tcomputed: {",
