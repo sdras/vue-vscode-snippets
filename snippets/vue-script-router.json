@@ -50,20 +50,12 @@
   },
   "Vue Router afterEach": {
     "prefix": "vaftereach",
-    "body": [
-      "router.afterEach((to, from) => {",
-      "\t",
-      "});"
-    ],
+    "body": ["router.afterEach((to, from) => {", "\t", "});"],
     "description": "Vue Router global guards afterEach"
   },
   "Vue Router beforeEnter": {
     "prefix": "vbeforeenter",
-    "body": [
-      "beforeEnter(to, from, next) {",
-      "\t${1:next();}",
-      "},"
-    ],
+    "body": ["beforeEnter(to, from, next) {", "\t${1:next();}", "},"],
     "description": "Vue Router per-route guard beforeEnter"
   },
   "Vue Router beforeRouteEnter": {
@@ -77,20 +69,12 @@
   },
   "Vue Router beforeRouteUpdate": {
     "prefix": "vbeforerouteupdate",
-    "body": [
-      "beforeRouteUpdate(to, from, next) {",
-      "\t${1:next();}",
-      "},"
-    ],
+    "body": ["beforeRouteUpdate(to, from, next) {", "\t${1:next();}", "},"],
     "description": "Vue Router component guards beforeRouteUpdate"
   },
   "Vue Router beforeRouteLeave": {
     "prefix": "vbeforerouteleave",
-    "body": [
-      "beforeRouteLeave(to, from, next) {",
-      "\t${1:next();}",
-      "},"
-    ],
+    "body": ["beforeRouteLeave(to, from, next) {", "\t${1:next();}", "},"],
     "description": "Vue Router component guards beforeRouteLeave"
   },
   "Vue Router Route": {

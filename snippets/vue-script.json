@@ -227,8 +227,7 @@
   "Vue Import GSAP": {
     "prefix": "vimport-gsap",
     "body": ["import { TimelineMax, ${1:Ease} } from 'gsap';"],
-    "description":
-      "component methods options that dispatch an action from vuex store."
+    "description": "component methods options that dispatch an action from vuex store."
   },
   "Vue Transition Methods with JavaScript Hooks": {
     "prefix": "vanimhook-js",

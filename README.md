@@ -33,7 +33,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 ### Vue
 
 | Snippet      | Purpose                                    |
-| -----------  | ------------------------------------------ |
+| ------------ | ------------------------------------------ |
 | `vbase`      | Single file component base with SCSS       |
 | `vbase-css`  | Single file component base with CSS        |
 | `vbase-pcss` | Single file component base with PostCSS    |
@@ -137,11 +137,11 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Nuxt Page
 
-| Snippet | Purpose                                                 |
-| ------- | ------------------------------------------------------- |
-| `nasyncdata`    | Nuxt asyncData                                        |
-| `nfetch`        | Nuxt Fetch                                            |
-| `nhead`         | Nuxt Head                                             |
+| Snippet      | Purpose        |
+| ------------ | -------------- |
+| `nasyncdata` | Nuxt asyncData |
+| `nfetch`     | Nuxt Fetch     |
+| `nhead`      | Nuxt Head      |
 
 ### Extra (plaintext)
 
