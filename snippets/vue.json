@@ -20,6 +20,48 @@
 		],
 		"description": "Base for Vue File with SCSS"
 	},
+	"Vue Single File Component with SASS": {
+		"prefix": "vbase-sass",
+		"body": [
+			"<template>",
+			"\t<div>",
+			"",
+			"\t</div>",
+			"</template>",
+			"",
+			"<script>",
+			"\texport default {",
+			"\t\t${0}",
+			"\t}",
+			"</script>",
+			"",
+			"<style lang=\"sass\" scoped>",
+			"",
+			"</style>"
+		],
+		"description": "Base for Vue File with PostCSS"
+	},
+	"Vue Single File Component with LESS": {
+		"prefix": "vbase-less",
+		"body": [
+			"<template>",
+			"\t<div>",
+			"",
+			"\t</div>",
+			"</template>",
+			"",
+			"<script>",
+			"\texport default {",
+			"\t\t${0}",
+			"\t}",
+			"</script>",
+			"",
+			"<style lang=\"less\" scoped>",
+			"",
+			"</style>"
+		],
+		"description": "Base for Vue File with PostCSS"
+	},
 	"Vue Single File Component with postcss": {
 		"prefix": "vbase-pcss",
 		"body": [
