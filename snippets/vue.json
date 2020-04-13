@@ -104,6 +104,27 @@
 		],
 		"description": "Base for Vue File with CSS"
 	},
+	"Vue Single File Component with Stylus": {
+		"prefix": "vbase-styl",
+		"body": [
+			"<template>",
+			"\t<div>",
+			"",
+			"\t</div>",
+			"</template>",
+			"",
+			"<script>",
+			"\texport default {",
+			"\t\t${0}",
+			"\t}",
+			"</script>",
+			"",
+			"<style lang=\"stylus\" scoped>",
+			"",
+			"</style>"
+		],
+		"description": "Base for Vue File with Stylus"
+	},
 	"Vue Single File Component with Typescript": {
 		"prefix": "vbase-ts",
 		"body": [
@@ -126,6 +147,22 @@
 			"</style>"
 		],
 		"description": "Base for Vue File with Typescript"
-	}
+	},
+	"Vue Single File Component with No Style": {
+    "prefix": "vbase-ns",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script>",
+      "\texport default {",
+      "\t\t${0}",
+      "\t}",
+      "</script>"
+    ],
+    "description": "Base for Vue File with no styles"
+  }
 }
-

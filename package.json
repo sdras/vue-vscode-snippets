@@ -33,6 +33,10 @@
         "language": "vue",
         "path": "./snippets/vue.json"
       },
+			{
+				"language": "jade",
+				"path": "./snippets/vue-pug.json"
+			},
       {
         "language": "html",
         "path": "./snippets/vue-template.json"

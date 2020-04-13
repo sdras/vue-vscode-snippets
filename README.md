@@ -35,10 +35,13 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | Snippet      | Purpose                                    |
 | -----------  | ------------------------------------------ |
 | `vbase`      | Single file component base with SCSS       |
-| `vbase-sass` | Single file component base with SASS       |
 | `vbase-css`  | Single file component base with CSS        |
-| `vbase-less` | Single file component base with LESS       |
+| `vbase-pcss` | Single file component base with PostCSS    |
+| `vbase-styl` | Single file component base with Stylus     |
 | `vbase-ts`   | Single file component base with Typescript |
+| `vbase-ns`   | Single file component with no styles       |
+| `vbase-sass` | Single file component base with SASS       |
+| `vbase-less` | Single file component base with LESS       |
 
 ### Template
 
