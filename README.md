@@ -32,12 +32,16 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Vue
 
-| Snippet     | Purpose                                    |
-| ----------- | ------------------------------------------ |
-| `vbase`     | Single file component base with SCSS       |
-| `vbase-css` | Single file component base with CSS        |
-| `vbase-pcss`| Single file component base with PostCSS    |
-| `vbase-ts`  | Single file component base with Typescript |
+| Snippet      | Purpose                                    |
+| ------------ | ------------------------------------------ |
+| `vbase`      | Single file component base with SCSS       |
+| `vbase-css`  | Single file component base with CSS        |
+| `vbase-pcss` | Single file component base with PostCSS    |
+| `vbase-styl` | Single file component base with Stylus     |
+| `vbase-ts`   | Single file component base with Typescript |
+| `vbase-ns`   | Single file component with no styles       |
+| `vbase-sass` | Single file component base with SASS       |
+| `vbase-less` | Single file component base with LESS       |
 
 ### Template
 
@@ -130,6 +134,14 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | ------- | ------------------------------------------------------- |
 | `nfont` | link to include fonts in a nuxt project, in nuxt-config |
 | `ncss`  | link to css assets such as normalize                    |
+
+### Nuxt Page
+
+| Snippet      | Purpose        |
+| ------------ | -------------- |
+| `nasyncdata` | Nuxt asyncData |
+| `nfetch`     | Nuxt Fetch     |
+| `nhead`      | Nuxt Head      |
 
 ### Extra (plaintext)
 

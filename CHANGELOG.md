@@ -4,6 +4,13 @@ All notable changes to the "vue-vscode-snippets" extension will be documented in
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.9.0
+
+- New vbase support: LESS, SASS, Stylus, no CSS
+- Fix pug support
+- Fix brackets on vue router
+- New snippets: Nuxt page snippets
+
 ## 1.8.0
 
 - New snippet: Vue router

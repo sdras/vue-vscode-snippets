@@ -1,0 +1,37 @@
+{
+  "Nuxt Async": {
+    "prefix": "nasyncdata",
+    "body": [
+      "async asyncData ({ ${1:params} }) {",
+      "\tconst { data } = await fetch(`${2:endpoint}`).then(res => res.json())",
+      "\treturn { ${3:key}:${4:value} }",
+      "},"
+    ],
+    "description": "Nuxt asyncData"
+  },
+  "Nuxt Fetch": {
+    "prefix": "nfetch",
+    "body": [
+      "async fetch ({ store, ${1:params} }) {",
+      "\tlet { data } = await fetch('${2:endpoint}').then(res => res.json())",
+      "\tstore.commit('${3:MUTATION_TYPE}', data)",
+      "},"
+    ],
+    "description": "Nuxt Fetch"
+  },
+  "Nuxt Head": {
+    "prefix": "nhead",
+    "body": [
+      "head () {",
+      "\treturn {",
+      "\t\ttitle: ${1:'Page Title'},",
+      "\t\tmeta: [",
+      "\t\t\t// hid is used as unique identifier. Do not use `vmid` for it as it will not work",
+      "\t\t\t{ hid: 'description', name: 'description', content: ${2:'My custom description'} }",
+      "\t\t]",
+      "\t}",
+      "},"
+    ],
+    "description": "Nuxt Head"
+  }
+}
