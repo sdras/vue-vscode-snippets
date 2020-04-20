@@ -82,6 +82,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vdestroyed`     | destroyed lifecycle method                                               |
 | `vprops`         | Props with type and default                                              |
 | `vimport`        | Import one component into another                                        |
+| `vimport-dynamic`| Import one component that should be lazy loaded by webpack               |
 | `vcomponents`    | Import one component into another within the export statement            |
 | `vimport-export` | Import one component into another and use it within the export statement |
 | `vmapstate`      | import mapState from Vuex into vue component component                   |

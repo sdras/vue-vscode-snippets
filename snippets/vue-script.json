@@ -121,6 +121,13 @@
     ],
     "description": "import a component and include it in export default"
   },
+	"Vue Import Component Dynamically": {
+		"prefix": "vimport-dynamic",
+		"body": [
+			"const ${1:New} = () => import('@/components/${1:New}.vue')"
+		],
+		"description": "Import component that should be lazy loaded"
+	},
   "Vue MapState": {
     "prefix": "vmapstate",
     "body": [
