@@ -316,7 +316,7 @@
       "\t${2:count}: ${3:0}",
       "})"
     ],
-    "description": "Vue Composition api - computed"
+    "description": "Vue Composition api - reactive"
   },
   "Vue Composition API - Computed": {
     "prefix": "v3computed",
@@ -334,7 +334,7 @@
       "\t${2}",
       "})"
     ],
-    "description": "Vue Composition api - watch as array"
+    "description": "Vue Composition api - watcher single source"
   },
   "Vue Composition API - watch - array": {
     "prefix": "v3watch-array",
