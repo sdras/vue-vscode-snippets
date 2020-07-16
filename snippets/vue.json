@@ -164,5 +164,32 @@
       "</script>"
     ],
     "description": "Base for Vue File with no styles"
+  },
+  "Vue Single File Component with Nuxt Decorator": {
+    "prefix": "vbase-nuxt",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "\timport { Component, Vue } from 'nuxt-property-decorator'",
+      "",
+      "\t@Component({",
+      "\t  components: {",
+      "\t  }",
+      "\t})",
+      "\texport default class FooPage extends Vue { ",
+      "",
+      "\t}",
+      "</script>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Vue Single File Component with Nuxt Decorator"
   }
 }
