@@ -315,5 +315,90 @@
       "}"
     ],
     "description": "vue.config.js"
+  },
+  "Vue Composition API - Reactive": {
+    "prefix": "v3reactive",
+    "body": [
+      "const ${1:name} = reactive({",
+      "\t${2:count}: ${3:0}",
+      "})"
+    ],
+    "description": "Vue Composition api - reactive"
+  },
+  "Vue Composition API - Computed": {
+    "prefix": "v3computed",
+    "body": [
+      "const ${1:name} = computed(() => {",
+      "\treturn ${2}",
+      "})"
+    ],
+    "description": "Vue Composition api - computed"
+  },
+  "Vue Composition API - watch - single source": {
+    "prefix": "v3watch",
+    "body": [
+      "watch(() => ${1:foo}, (newValue, oldValue) => {",
+      "\t${2}",
+      "})"
+    ],
+    "description": "Vue Composition api - watcher single source"
+  },
+  "Vue Composition API - watch - array": {
+    "prefix": "v3watch-array",
+    "body": [
+      "watch([${1:foo}, ${2:bar}], ([new${1}, new${2}], [prev${1}, prev${2}]) => {",
+      "\t${3}",
+      "})"
+    ],
+    "description": "Vue Composition api - watch as array"
+  },
+  "Vue Composition API - watchEffect": {
+    "prefix": "v3watcheffect",
+    "body": [
+      "watchEffect(() => {",
+      "\t${1}",
+      "})"
+    ],
+    "description": "Vue Composition api - watchEffect"
+  },
+  "Vue Composition API - Vue ref": {
+    "prefix": "v3ref",
+    "body": ["const ${1:name} = ref(${2:initialValue})"],
+    "description": "Vue Ref"
+  },
+  "Vue Lifecycle Hooks - onMounted": {
+    "prefix": "v3onmounted",
+    "body": ["onMounted(() => {${1}})"],
+    "description": "Vue Mounted Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onBeforeMount": {
+    "prefix": "v3onbeforemount",
+    "body": ["onBeforeMount(() => {${1}})"],
+    "description": "Vue onBeforeMount Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onBeforeUpdate": {
+    "prefix": "v3onbeforeupdate",
+    "body": ["onBeforeUpdate(() => {${1}})"],
+    "description": "Vue onBeforeUpdate Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onUpdated": {
+    "prefix": "v3onupdated",
+    "body": ["onUpdated(() => {${1}})"],
+    "description": "Vue onUpdated Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onErrorCaptured": {
+    "prefix": "v3onerrorcaptured",
+    "body": ["onErrorCaptured(() => {${1}})"],
+    "description": "Vue onErrorCaptured Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onUnmounted": {
+    "prefix": "v3onunmounted",
+    "body": ["onUnmounted(() => {${1}})"],
+    "description": "(destroyed) Vue onUnmounted Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onBeforeUnmount": {
+    "prefix": "v3onbeforeunmount",
+    "body": ["onBeforeUnmount(() => {${1}})"],
+    "description": "(beforeDestroy) Vue onBeforeUnmount Lifecycle hook"
   }
 }

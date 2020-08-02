@@ -32,16 +32,18 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Vue
 
-| Snippet      | Purpose                                    |
-| ------------ | ------------------------------------------ |
-| `vbase`      | Single file component base with SCSS       |
-| `vbase-css`  | Single file component base with CSS        |
-| `vbase-pcss` | Single file component base with PostCSS    |
-| `vbase-styl` | Single file component base with Stylus     |
-| `vbase-ts`   | Single file component base with Typescript |
-| `vbase-ns`   | Single file component with no styles       |
-| `vbase-sass` | Single file component base with SASS       |
-| `vbase-less` | Single file component base with LESS       |
+| Snippet      | Purpose                                               |
+| ------------ | ----------------------------------------------------- |
+| `vbase`      | Single file component base with SCSS                  |
+| `vbase-3`    | Single File component Composition API with SCSS       |
+| `vbase-css`  | Single file component base with CSS                   |
+| `vbase-pcss` | Single file component base with PostCSS               |
+| `vbase-styl` | Single file component base with Stylus                |
+| `vbase-ts`   | Single file component base with Typescript            |
+| `vbase-3-ts` | Single File component Composition API with Typescript |
+| `vbase-ns`   | Single file component with no styles                  |
+| `vbase-sass` | Single file component base with SASS                  |
+| `vbase-less` | Single file component base with LESS                  |
 
 ### Template
 
@@ -102,6 +104,24 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vinc`           | incrementer                                                              |
 | `vdec`           | decrementer                                                              |
 | `vconfig`        | vue.config.js file, example imports a sass file into every component     |
+
+### Vue Composition API
+
+| Snippet           | Purpose                                            |
+| ----------------- | -------------------------------------------------- |
+| v3reactive        | Vue Composition api - reactive                     |
+| v3computed        | Vue Composition api - computed                     |
+| v3watch           | Vue Composition api - watcher single source        |
+| v3watch-array     | Vue Composition api - watch as array               |
+| v3watcheffect     | Vue Composition api - watchEffect                  |
+| v3ref             | Vue Ref                                            |
+| v3onmounted       | Lifecycle hook - onMounted                         |
+| v3onbeforemount   | Lifecycle hook - onBeforeMount                     |
+| v3onbeforeupdate  | Lifecycle hook - onBeforeUpdate                    |
+| v3onupdated       | Lifecycle hook - onUpdated                         |
+| v3onerrorcaptured | Lifecycle hook - onErrorCaptured                   |
+| v3onunmounted     | Lifecycle hook - (destroyed) onUnmounted           |
+| v3onbeforeunmount | Lifecycle hook - (beforeDestroy) onBeforeUnmount   |
 
 ### Vuex
 
