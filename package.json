@@ -3,7 +3,7 @@
   "displayName": "Vue VSCode Snippets",
   "description": "Snippets that will supercharge your Vue workflow",
   "icon": "images/vue-logo.png",
-  "version": "1.9.0",
+  "version": "2.0.0",
   "publisher": "sdras",
   "engines": {
     "vscode": "^1.14.0"
@@ -18,7 +18,9 @@
   },
   "keywords": [
     "Vue",
+    "Vue 3",
     "Vue 2",
+    "Composition API",
     "Vue Snippets"
   ],
   "extensionDependencies": [
