@@ -173,3 +173,5 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 ## Contributing
 
 This is an open source project open to anyone. Contributions are welcome [github](https://github.com/sdras/vue-vscode-snippets)
+
+If you are contributing a snippet, please be sure to add the documentation for it in the tables in the README, the pull request cannot be accepted without this addition. Thanks.
