@@ -111,20 +111,27 @@
   "Vue Import Export": {
     "prefix": "vimport-export",
     "body": [
-      "import ${1:Name} from '@/components/${1:Name}.vue'",
+      "import ${1:Name} from '@/components/${1:Name}.vue';",
       "",
       "export default {",
       "\tcomponents: {",
       "\t\t${1:Name}",
       "\t},",
-      "}"
+      "};"
     ],
     "description": "import a component and include it in export default"
   },
+	"Vue Import Component Dynamically": {
+		"prefix": "vimport-dynamic",
+		"body": [
+			"const ${1:New} = () => import('@/components/${1:New}.vue')"
+		],
+		"description": "Import component that should be lazy loaded"
+	},
   "Vue MapState": {
     "prefix": "vmapstate",
     "body": [
-      "import { mapState } from 'vuex'",
+      "import { mapState } from 'vuex';",
       "",
       "export default {",
       "\tcomputed: {",
@@ -132,14 +139,14 @@
       "\t\t\t${1:'nameOfState'},",
       "\t\t])",
       "\t},",
-      "}"
+      "};"
     ],
     "description": "map getters inside a vue component"
   },
   "Vue MapGetters": {
     "prefix": "vmapgetters",
     "body": [
-      "import { mapGetters } from 'vuex'",
+      "import { mapGetters } from 'vuex';",
       "",
       "export default {",
       "\tcomputed: {",
@@ -147,14 +154,14 @@
       "\t\t\t${1:'nameOfGetter'},",
       "\t\t])",
       "\t},",
-      "}"
+      "};"
     ],
     "description": "mapgetters inside a vue component"
   },
   "Vue MapMutations": {
     "prefix": "vmapmutations",
     "body": [
-      "import { mapMutations } from 'vuex'",
+      "import { mapMutations } from 'vuex';",
       "",
       "export default {",
       "\tmethods: {",
@@ -162,14 +169,14 @@
       "\t\t\t${1:'nameOfMutation'}, //also supports payload `this.nameOfMutation(amount)` ",
       "\t\t])",
       "\t},",
-      "}"
+      "};"
     ],
     "description": "mapmutations inside a vue component"
   },
   "Vue MapActions": {
     "prefix": "vmapactions",
     "body": [
-      "import { mapActions } from 'vuex'",
+      "import { mapActions } from 'vuex';",
       "",
       "export default {",
       "\tmethods: {",
@@ -177,7 +184,7 @@
       "\t\t\t${1:'nameOfAction'}, //also supports payload `this.nameOfAction(amount)` ",
       "\t\t])",
       "\t},",
-      "}"
+      "};"
     ],
     "description": "mapactions inside a vue component"
   },
@@ -197,9 +204,9 @@
     "body": [
       "const ${1:mixinName} = {",
       "\tmounted() {",
-      "\t\tconsole.log('hello from mixin!')",
+      "\t\tconsole.log('hello from mixin!');",
       "\t},",
-      "}"
+      "};"
     ],
     "description": "vue mixin"
   },
@@ -221,14 +228,13 @@
   },
   "Vue Import Library": {
     "prefix": "vimport-lib",
-    "body": ["import { ${1:libName} } from '${1:libName}'"],
+    "body": ["import { ${1:libName} } from '${1:libName}';"],
     "description": "import a library"
   },
   "Vue Import GSAP": {
     "prefix": "vimport-gsap",
-    "body": ["import { TimelineMax, ${1:Ease} } from 'gsap'"],
-    "description":
-      "component methods options that dispatch an action from vuex store."
+    "body": ["import { TimelineMax, ${1:Ease} } from 'gsap';"],
+    "description": "component methods options that dispatch an action from vuex store."
   },
   "Vue Transition Methods with JavaScript Hooks": {
     "prefix": "vanimhook-js",
@@ -254,7 +260,7 @@
     "prefix": "vcommit",
     "body": [
       "${1:mutationName}() {",
-      "\tthis.\\$store.commit('${1:mutationName}', ${2:payload})",
+      "\tthis.\\$store.commit('${1:mutationName}', ${2:payload});",
       "}"
     ],
     "description": "commit to vuex store in methods for mutation"
@@ -263,35 +269,35 @@
     "prefix": "vdispatch",
     "body": [
       "${1:actionName}() {",
-      "\tthis.\\$store.dispatch('${1:actionName}', ${2:payload})",
+      "\tthis.\\$store.dispatch('${1:actionName}', ${2:payload});",
       "}"
     ],
     "description": "dispatch to vuex store in methods for action"
   },
   "Incrementer": {
     "prefix": "vinc",
-    "body": ["return ${1:this.num} += ${2:1}"],
+    "body": ["return ${1:this.num} += ${2:1};"],
     "description": "increment"
   },
   "Decrementer": {
     "prefix": "vdec",
-    "body": ["return ${1:this.num} -= ${2:1}"],
+    "body": ["return ${1:this.num} -= ${2:1};"],
     "description": "decrement"
   },
   "Unit Test": {
     "prefix": "vtest",
     "body": [
-      "import Vue from 'vue'",
-      "import ${1:HelloWorld} from './components/${1:HelloWorld}'",
+      "import Vue from 'vue';",
+      "import ${1:HelloWorld} from './components/${1:HelloWorld}';",
       "",
       "describe('${1:HelloWorld}.vue', () => {",
       "\tit('${2:should render correct contents}', () => {",
-      "\t\tconst Constructor = Vue.extend(${1:HelloWorld})",
-      "\t\tconst vm = new Constructor().$mount()",
+      "\t\tconst Constructor = Vue.extend(${1:HelloWorld});",
+      "\t\tconst vm = new Constructor().$mount();",
       "\t\texpect(vm.$el.querySelector('.hello h1').textContent)",
-      "\t\t\t.to.equal(${3:'Welcome to Your Vue.js App'})",
-      "\t})",
-      "})"
+      "\t\t\t.to.equal(${3:'Welcome to Your Vue.js App'});",
+      "\t});",
+      "});"
     ],
     "description": "unit test component"
   },
@@ -309,5 +315,90 @@
       "}"
     ],
     "description": "vue.config.js"
+  },
+  "Vue Composition API - Reactive": {
+    "prefix": "v3reactive",
+    "body": [
+      "const ${1:name} = reactive({",
+      "\t${2:count}: ${3:0}",
+      "})"
+    ],
+    "description": "Vue Composition api - reactive"
+  },
+  "Vue Composition API - Computed": {
+    "prefix": "v3computed",
+    "body": [
+      "const ${1:name} = computed(() => {",
+      "\treturn ${2}",
+      "})"
+    ],
+    "description": "Vue Composition api - computed"
+  },
+  "Vue Composition API - watch - single source": {
+    "prefix": "v3watch",
+    "body": [
+      "watch(() => ${1:foo}, (newValue, oldValue) => {",
+      "\t${2}",
+      "})"
+    ],
+    "description": "Vue Composition api - watcher single source"
+  },
+  "Vue Composition API - watch - array": {
+    "prefix": "v3watch-array",
+    "body": [
+      "watch([${1:foo}, ${2:bar}], ([new${1}, new${2}], [prev${1}, prev${2}]) => {",
+      "\t${3}",
+      "})"
+    ],
+    "description": "Vue Composition api - watch as array"
+  },
+  "Vue Composition API - watchEffect": {
+    "prefix": "v3watcheffect",
+    "body": [
+      "watchEffect(() => {",
+      "\t${1}",
+      "})"
+    ],
+    "description": "Vue Composition api - watchEffect"
+  },
+  "Vue Composition API - Vue ref": {
+    "prefix": "v3ref",
+    "body": ["const ${1:name} = ref(${2:initialValue})"],
+    "description": "Vue Ref"
+  },
+  "Vue Lifecycle Hooks - onMounted": {
+    "prefix": "v3onmounted",
+    "body": ["onMounted(() => {${1}})"],
+    "description": "Vue Mounted Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onBeforeMount": {
+    "prefix": "v3onbeforemount",
+    "body": ["onBeforeMount(() => {${1}})"],
+    "description": "Vue onBeforeMount Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onBeforeUpdate": {
+    "prefix": "v3onbeforeupdate",
+    "body": ["onBeforeUpdate(() => {${1}})"],
+    "description": "Vue onBeforeUpdate Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onUpdated": {
+    "prefix": "v3onupdated",
+    "body": ["onUpdated(() => {${1}})"],
+    "description": "Vue onUpdated Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onErrorCaptured": {
+    "prefix": "v3onerrorcaptured",
+    "body": ["onErrorCaptured(() => {${1}})"],
+    "description": "Vue onErrorCaptured Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onUnmounted": {
+    "prefix": "v3onunmounted",
+    "body": ["onUnmounted(() => {${1}})"],
+    "description": "(destroyed) Vue onUnmounted Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onBeforeUnmount": {
+    "prefix": "v3onbeforeunmount",
+    "body": ["onBeforeUnmount(() => {${1}})"],
+    "description": "(beforeDestroy) Vue onBeforeUnmount Lifecycle hook"
   }
 }
