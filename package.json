@@ -3,7 +3,7 @@
   "displayName": "Vue VSCode Snippets",
   "description": "Snippets that will supercharge your Vue workflow",
   "icon": "images/vue-logo.png",
-  "version": "1.7.1",
+  "version": "2.0.0",
   "publisher": "sdras",
   "engines": {
     "vscode": "^1.14.0"
@@ -18,7 +18,9 @@
   },
   "keywords": [
     "Vue",
+    "Vue 3",
     "Vue 2",
+    "Composition API",
     "Vue Snippets"
   ],
   "extensionDependencies": [
@@ -32,6 +34,10 @@
       {
         "language": "vue",
         "path": "./snippets/vue.json"
+      },
+      {
+        "language": "jade",
+        "path": "./snippets/vue-pug.json"
       },
       {
         "language": "html",
@@ -58,6 +64,10 @@
         "path": "./snippets/nuxt-config.json"
       },
       {
+        "language": "javascript",
+        "path": "./snippets/nuxt-script.json"
+      },
+      {
         "language": "typescript",
         "path": "./snippets/vue-script.json"
       },
@@ -72,10 +82,6 @@
       {
         "language": "typescript",
         "path": "./snippets/nuxt-config.json"
-      },
-      {
-        "language": "plaintext",
-        "path": "./snippets/plaintext.json"
       }
     ]
   }
