@@ -109,21 +109,22 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Vue Composition API
 
-| Snippet             | Purpose                                          |
-| ------------------- | ------------------------------------------------ |
-| `v3reactive`        | Vue Composition api - reactive                   |
-| `v3computed`        | Vue Composition api - computed                   |
-| `v3watch`           | Vue Composition api - watcher single source      |
-| `v3watch-array`     | Vue Composition api - watch as array             |
-| `v3watcheffect`     | Vue Composition api - watchEffect                |
-| `v3ref`             | Vue Ref                                          |
-| `v3onmounted`       | Lifecycle hook - onMounted                       |
-| `v3onbeforemount`   | Lifecycle hook - onBeforeMount                   |
-| `v3onbeforeupdate`  | Lifecycle hook - onBeforeUpdate                  |
-| `v3onupdated`       | Lifecycle hook - onUpdated                       |
-| `v3onerrorcaptured` | Lifecycle hook - onErrorCaptured                 |
-| `v3onunmounted`     | Lifecycle hook - (destroyed) onUnmounted         |
-| `v3onbeforeunmount` | Lifecycle hook - (beforeDestroy) onBeforeUnmount |
+| Snippet             | Purpose                                               |
+| ------------------- | ----------------------------------------------------- |
+| `v3reactive`        | Vue Composition api - reactive                        |
+| `v3reactive-setup`  | Vue Composition api - reactive with setup boilerplate |
+| `v3computed`        | Vue Composition api - computed                        |
+| `v3watch`           | Vue Composition api - watcher single source           |
+| `v3watch-array`     | Vue Composition api - watch as array                  |
+| `v3watcheffect`     | Vue Composition api - watchEffect                     |
+| `v3ref`             | Vue Ref                                               |
+| `v3onmounted`       | Lifecycle hook - onMounted                            |
+| `v3onbeforemount`   | Lifecycle hook - onBeforeMount                        |
+| `v3onbeforeupdate`  | Lifecycle hook - onBeforeUpdate                       |
+| `v3onupdated`       | Lifecycle hook - onUpdated                            |
+| `v3onerrorcaptured` | Lifecycle hook - onErrorCaptured                      |
+| `v3onunmounted`     | Lifecycle hook - (destroyed) onUnmounted              |
+| `v3onbeforeunmount` | Lifecycle hook - (beforeDestroy) onBeforeUnmount      |
 
 ### Vuex
 

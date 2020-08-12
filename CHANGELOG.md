@@ -2,6 +2,10 @@
 
 All notable changes to the "vue-vscode-snippets" extension will be documented in this file.
 
+## 2.1.2
+
+- Add in Vue 3 Composition API with Reactive boilerplate script
+
 ## 2.1.1
 
 - Update readme to reflect Vue 3 support

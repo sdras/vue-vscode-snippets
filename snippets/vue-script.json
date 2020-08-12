@@ -392,5 +392,24 @@
       "Vue.use(${1:VueCompositionApi})"
     ],
     "description": "Import a plugin to main.js or plugins file"
+  },
+  "Vue Composition API Reactive Script": {
+    "prefix": "v3reactive-setup",
+    "body": [
+      "import { reactive, toRefs } from '@vue/composition-api'",
+      "",
+      "export default {",
+      "\tsetup () {",
+      "\t\tconst state = reactive({",
+      "\t\t\t${0:count}: ${1:0},",
+      "\t\t})",
+      "\t",
+      "\t\treturn {",
+      "\t\t\t...toRefs(state),",
+      "\t\t}",
+      "\t}",
+      "}"
+    ],
+    "description": "Vue Composition API Script with Reactive"
   }
 }
