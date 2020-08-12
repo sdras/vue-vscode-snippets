@@ -68,60 +68,59 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Script
 
-| Snippet          | Purpose                                                                  |
-| ---------------- | ------------------------------------------------------------------------ |
-| `vdata`          | Component data as a function                                             |
-| `vmethod`        | Vue method                                                               |
-| `vcomputed`      | Vue computed property                                                    |
-| `vwatcher`       | Vue watcher with new and old value args                                  |
-| `vbeforecreate`  | beforeCreate lifecycle method                                            |
-| `vcreated`       | created lifecycle method                                                 |
-| `vbeforemount`   | beforeMount lifecycle method                                             |
-| `vmounted`       | vmounted lifecycle method                                                |
-| `vbeforeupdate`  | beforeUpdate lifecycle method                                            |
-| `vupdated`       | updated lifecycle method                                                 |
-| `vbeforedestroy` | beforeDestroy lifecycle method                                           |
-| `vdestroyed`     | destroyed lifecycle method                                               |
-| `vprops`         | Props with type and default                                              |
-| `vimport`        | Import one component into another                                        |
-| `vimport-dynamic`| Import one component that should be lazy loaded by webpack               |
-| `vcomponents`    | Import one component into another within the export statement            |
-| `vimport-export` | Import one component into another and use it within the export statement |
-| `vmapstate`      | import mapState from Vuex into vue component component                   |
-| `vmapgetters`    | import mapGetters from Vuex into vue component component                 |
-| `vmapmutations`  | import mapMutations from Vuex into vue component component               |
-| `vmapactions`    | import mapActions from Vuex into vue component component                 |
-| `vfilter`        | Vue filter                                                               |
-| `vmixin`         | Create a Vue Mixin                                                       |
-| `vmixin-use`     | Bring a mixin into a component to use                                    |
-| `vc-direct`      | Vue create a custom directive                                            |
-| `vimport-lib`    | Import a library                                                         |
-| `vimport-gsap`   | Import GreenSock with Timeline and Eases                                 |
-| `vanimhook-js`   | Using the Transition component JS hooks in methods                       |
-| `vcommit`        | Commit to Vuex store in methods for mutation                             |
-| `vdispatch`      | Dispatch to Vuex store in methods for action                             |
-| `vtest`          | A simple unit testing component                                          |
-| `vinc`           | incrementer                                                              |
-| `vdec`           | decrementer                                                              |
-| `vconfig`        | vue.config.js file, example imports a sass file into every component     |
+| Snippet           | Purpose                                                                  |
+| ----------------- | ------------------------------------------------------------------------ |
+| `vdata`           | Component data as a function                                             |
+| `vmethod`         | Vue method                                                               |
+| `vcomputed`       | Vue computed property                                                    |
+| `vwatcher`        | Vue watcher with new and old value args                                  |
+| `vbeforecreate`   | beforeCreate lifecycle method                                            |
+| `vcreated`        | created lifecycle method                                                 |
+| `vbeforemount`    | beforeMount lifecycle method                                             |
+| `vmounted`        | vmounted lifecycle method                                                |
+| `vbeforeupdate`   | beforeUpdate lifecycle method                                            |
+| `vupdated`        | updated lifecycle method                                                 |
+| `vbeforedestroy`  | beforeDestroy lifecycle method                                           |
+| `vdestroyed`      | destroyed lifecycle method                                               |
+| `vprops`          | Props with type and default                                              |
+| `vemit-child`     | Emit event from child component                                          |
+| `vemit-parent`    | Emit event tp parent component                                           |
+| `vimport`         | Import one component into another                                        |
+| `vimport-dynamic` | Import one component that should be lazy loaded by webpack               |
+| `vcomponents`     | Import one component into another within the export statement            |
+| `vimport-export`  | Import one component into another and use it within the export statement |
+| `vmapstate`       | import mapState from Vuex into vue component component                   |
+| `vmapgetters`     | import mapGetters from Vuex into vue component component                 |
+| `vmapmutations`   | import mapMutations from Vuex into vue component component               |
+| `vmapactions`     | import mapActions from Vuex into vue component component                 |
+| `vfilter`         | Vue filter                                                               |
+| `vmixin`          | Create a Vue Mixin                                                       |
+| `vmixin-use`      | Bring a mixin into a component to use                                    |
+| `vc-direct`       | Vue create a custom directive                                            |
+| `vimport-lib`     | Import a library                                                         |
+| `vimport-gsap`    | Import GreenSock                                                         |
+| `vanimhook-js`    | Using the Transition component JS hooks in methods                       |
+| `vcommit`         | Commit to Vuex store in methods for mutation                             |
+| `vdispatch`       | Dispatch to Vuex store in methods for action                             |
+| `vtest`           | A simple unit testing component                                          |
 
 ### Vue Composition API
 
-| Snippet           | Purpose                                            |
-| ----------------- | -------------------------------------------------- |
-| v3reactive        | Vue Composition api - reactive                     |
-| v3computed        | Vue Composition api - computed                     |
-| v3watch           | Vue Composition api - watcher single source        |
-| v3watch-array     | Vue Composition api - watch as array               |
-| v3watcheffect     | Vue Composition api - watchEffect                  |
-| v3ref             | Vue Ref                                            |
-| v3onmounted       | Lifecycle hook - onMounted                         |
-| v3onbeforemount   | Lifecycle hook - onBeforeMount                     |
-| v3onbeforeupdate  | Lifecycle hook - onBeforeUpdate                    |
-| v3onupdated       | Lifecycle hook - onUpdated                         |
-| v3onerrorcaptured | Lifecycle hook - onErrorCaptured                   |
-| v3onunmounted     | Lifecycle hook - (destroyed) onUnmounted           |
-| v3onbeforeunmount | Lifecycle hook - (beforeDestroy) onBeforeUnmount   |
+| Snippet             | Purpose                                          |
+| ------------------- | ------------------------------------------------ |
+| `v3reactive`        | Vue Composition api - reactive                   |
+| `v3computed`        | Vue Composition api - computed                   |
+| `v3watch`           | Vue Composition api - watcher single source      |
+| `v3watch-array`     | Vue Composition api - watch as array             |
+| `v3watcheffect`     | Vue Composition api - watchEffect                |
+| `v3ref`             | Vue Ref                                          |
+| `v3onmounted`       | Lifecycle hook - onMounted                       |
+| `v3onbeforemount`   | Lifecycle hook - onBeforeMount                   |
+| `v3onbeforeupdate`  | Lifecycle hook - onBeforeUpdate                  |
+| `v3onupdated`       | Lifecycle hook - onUpdated                       |
+| `v3onerrorcaptured` | Lifecycle hook - onErrorCaptured                 |
+| `v3onunmounted`     | Lifecycle hook - (destroyed) onUnmounted         |
+| `v3onbeforeunmount` | Lifecycle hook - (beforeDestroy) onBeforeUnmount |
 
 ### Vuex
 
@@ -149,6 +148,13 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vbeforerouteupdate` | Vue Router component guards beforeRouteUpdate |
 | `vbeforerouteleave`  | Vue Router component guards beforeRouteLeave  |
 
+### Vue Config
+
+| Snippet   | Purpose                                                              |
+| --------- | -------------------------------------------------------------------- |
+| `vplugin` | Import a plugin to main.js or plugins file                           |
+| `vconfig` | vue.config.js file, example imports a sass file into every component |
+
 ### Nuxt Config
 
 | Snippet | Purpose                                                 |
@@ -158,11 +164,12 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Nuxt Page
 
-| Snippet      | Purpose        |
-| ------------ | -------------- |
-| `nasyncdata` | Nuxt asyncData |
-| `nfetch`     | Nuxt Fetch     |
-| `nhead`      | Nuxt Head      |
+| Snippet      | Purpose           |
+| ------------ | ----------------- |
+| `nasyncdata` | Nuxt asyncData    |
+| `nfetch`     | Nuxt Fetch        |
+| `nhead`      | Nuxt Head         |
+| `nparam`     | Nuxt Route Params |
 
 ### Extra (plaintext)
 

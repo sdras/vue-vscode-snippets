@@ -98,6 +98,16 @@
     ],
     "description": "Vue Props with Default"
   },
+  "Vue Emit from Child": {
+    "prefix": "vemit-child",
+    "body": ["@change=\"$emit('change', $event.target.value)\""],
+    "description": "Vue Emit from Child Component"
+  },
+  "Vue Emit to Parent": {
+    "prefix": "vemit-parent",
+    "body": ["@change=\"${1:foo} = $event\""],
+    "description": "Vue Emit to Parent Component"
+  },
   "Vue Import File": {
     "prefix": "vimport",
     "body": ["import ${1:New} from '@/components/${1:New}.vue';"],
@@ -121,13 +131,11 @@
     ],
     "description": "import a component and include it in export default"
   },
-	"Vue Import Component Dynamically": {
-		"prefix": "vimport-dynamic",
-		"body": [
-			"const ${1:New} = () => import('@/components/${1:New}.vue')"
-		],
-		"description": "Import component that should be lazy loaded"
-	},
+  "Vue Import Component Dynamically": {
+    "prefix": "vimport-dynamic",
+    "body": ["const ${1:New} = () => import('@/components/${1:New}.vue')"],
+    "description": "Import component that should be lazy loaded"
+  },
   "Vue MapState": {
     "prefix": "vmapstate",
     "body": [
@@ -233,8 +241,8 @@
   },
   "Vue Import GSAP": {
     "prefix": "vimport-gsap",
-    "body": ["import { TimelineMax, ${1:Ease} } from 'gsap';"],
-    "description": "component methods options that dispatch an action from vuex store."
+    "body": ["import gsap from 'gsap';"],
+    "description": "import gsap library"
   },
   "Vue Transition Methods with JavaScript Hooks": {
     "prefix": "vanimhook-js",
@@ -274,16 +282,6 @@
     ],
     "description": "dispatch to vuex store in methods for action"
   },
-  "Incrementer": {
-    "prefix": "vinc",
-    "body": ["return ${1:this.num} += ${2:1};"],
-    "description": "increment"
-  },
-  "Decrementer": {
-    "prefix": "vdec",
-    "body": ["return ${1:this.num} -= ${2:1};"],
-    "description": "decrement"
-  },
   "Unit Test": {
     "prefix": "vtest",
     "body": [
@@ -318,29 +316,17 @@
   },
   "Vue Composition API - Reactive": {
     "prefix": "v3reactive",
-    "body": [
-      "const ${1:name} = reactive({",
-      "\t${2:count}: ${3:0}",
-      "})"
-    ],
+    "body": ["const ${1:name} = reactive({", "\t${2:count}: ${3:0}", "})"],
     "description": "Vue Composition api - reactive"
   },
   "Vue Composition API - Computed": {
     "prefix": "v3computed",
-    "body": [
-      "const ${1:name} = computed(() => {",
-      "\treturn ${2}",
-      "})"
-    ],
+    "body": ["const ${1:name} = computed(() => {", "\treturn ${2}", "})"],
     "description": "Vue Composition api - computed"
   },
   "Vue Composition API - watch - single source": {
     "prefix": "v3watch",
-    "body": [
-      "watch(() => ${1:foo}, (newValue, oldValue) => {",
-      "\t${2}",
-      "})"
-    ],
+    "body": ["watch(() => ${1:foo}, (newValue, oldValue) => {", "\t${2}", "})"],
     "description": "Vue Composition api - watcher single source"
   },
   "Vue Composition API - watch - array": {
@@ -354,11 +340,7 @@
   },
   "Vue Composition API - watchEffect": {
     "prefix": "v3watcheffect",
-    "body": [
-      "watchEffect(() => {",
-      "\t${1}",
-      "})"
-    ],
+    "body": ["watchEffect(() => {", "\t${1}", "})"],
     "description": "Vue Composition api - watchEffect"
   },
   "Vue Composition API - Vue ref": {
@@ -400,5 +382,15 @@
     "prefix": "v3onbeforeunmount",
     "body": ["onBeforeUnmount(() => {${1}})"],
     "description": "(beforeDestroy) Vue onBeforeUnmount Lifecycle hook"
+  },
+  "Plugin import": {
+    "prefix": "vplugin",
+    "body": [
+      "import Vue from 'vue'",
+      "import ${1:VueCompositionApi} from '${2:@vue/composition-api}'",
+      "",
+      "Vue.use(${1:VueCompositionApi})"
+    ],
+    "description": "Import a plugin to main.js or plugins file"
   }
 }
