@@ -19,6 +19,11 @@
     ],
     "description": "Nuxt Fetch"
   },
+  "Nuxt Route Params": {
+    "prefix": "nparam",
+    "body": ["this.$route.params.${1:id}"],
+    "description": "Nuxt Route Params"
+  },
   "Nuxt Head": {
     "prefix": "nhead",
     "body": [

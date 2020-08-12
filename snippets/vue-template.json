@@ -30,6 +30,11 @@
     "body": ["<${1:component} :${1:propName}=\"${0}\"></${1:component}>"],
     "description": "component element with props"
   },
+  "Vue Named Slot": {
+    "prefix": "vslot-named",
+    "body": ["<template v-slot:${0:name}>${1:defaultcontent}</template>"],
+    "description": "named slot"
+  },
   "Vue Image Source Binding": {
     "prefix": "vsrc",
     "body": [
