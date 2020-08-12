@@ -111,12 +111,12 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 | Snippet             | Purpose                                               |
 | ------------------- | ----------------------------------------------------- |
-| `v3reactive`        | Vue Composition api - reactive                        |
-| `v3reactive-setup`  | Vue Composition api - reactive with setup boilerplate |
-| `v3computed`        | Vue Composition api - computed                        |
-| `v3watch`           | Vue Composition api - watcher single source           |
-| `v3watch-array`     | Vue Composition api - watch as array                  |
-| `v3watcheffect`     | Vue Composition api - watchEffect                     |
+| `v3reactive`        | Vue Composition API - reactive                        |
+| `v3reactive-setup`  | Vue Composition API - reactive with setup boilerplate |
+| `v3computed`        | Vue Composition API - computed                        |
+| `v3watch`           | Vue Composition API - watcher single source           |
+| `v3watch-array`     | Vue Composition API - watch as array                  |
+| `v3watcheffect`     | Vue Composition API - watchEffect                     |
 | `v3ref`             | Vue Ref                                               |
 | `v3onmounted`       | Lifecycle hook - onMounted                            |
 | `v3onbeforemount`   | Lifecycle hook - onBeforeMount                        |
@@ -125,6 +125,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `v3onerrorcaptured` | Lifecycle hook - onErrorCaptured                      |
 | `v3onunmounted`     | Lifecycle hook - (destroyed) onUnmounted              |
 | `v3onbeforeunmount` | Lifecycle hook - (beforeDestroy) onBeforeUnmount      |
+| `v3useinoptions`    | Use Composition API in Options API                    |
 
 ### Vuex
 

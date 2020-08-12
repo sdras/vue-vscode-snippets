@@ -411,5 +411,22 @@
       "}"
     ],
     "description": "Vue Composition API Script with Reactive"
+  },
+  "Use Composition API within Options API": {
+    "prefix": "v3useinoptions",
+    "body": [
+      "import { ${0:component} } from '@/composables/${0:component}.js'",
+      "",
+      "export default {",
+      "\tsetup () {",
+      "\t\tconst { ${1:name} } = ${0:component}()",
+      "\t",
+      "\t\treturn {",
+      "\t\t\t${1:name}",
+      "\t\t}",
+      "\t}",
+      "}"
+    ],
+    "description": "Use Composition API within Options API"
   }
 }
