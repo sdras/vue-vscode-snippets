@@ -4,11 +4,11 @@
 
 ## Description
 
-These snippets were built to supercharge my workflow in the most seamless manner possible.
+These snippets were built supercharge a workflow in the most seamless manner possible.
 
-This repo was built particularly for real world use. It doesn't catalogue the API definitions, and it's not a kitchen sink approach. Rather, it focuses on developer ergonomics from the point of Vue of real world use. Included are the pieces I personally get sick of typing, have to keep looking up, or forget to consider while developing that I make more use of when they're at my fingertips.
+This repo was built particularly for real world use. It doesn't catalogue the API definitions, rather, it focuses on developer ergonomics from the point of Vue of real world use. Included are the pieces I personally get sick of typing, and boilerplate that is helpful to stub out quickly.
 
-_Current version: Vue2_
+_Versions Supported: Vue 2 and Vue 3_
 
 ![SnippetDemo](https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/SnippetDemo.gif)
 
@@ -41,7 +41,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vbase-pcss`       | Single file component base with PostCSS                      |
 | `vbase-styl`       | Single file component base with Stylus                       |
 | `vbase-ts`         | Single file component base with Typescript                   |
-| `vbase-ts-class` | Single file component base with Typescript Class Format |
+| `vbase-ts-class`   | Single file component base with Typescript Class Format      |
 | `vbase-3-ts`       | Single File component Composition API with Typescript        |
 | `vbase-ns`         | Single file component with no styles                         |
 | `vbase-sass`       | Single file component base with SASS                         |
@@ -184,4 +184,4 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 This is an open source project open to anyone. Contributions are welcome [github](https://github.com/sdras/vue-vscode-snippets)
 
-If you are contributing a snippet, please be sure to add the documentation for it in the tables in the README, the pull request cannot be accepted without this addition. Thanks.
+If you are contributing a snippet, please be sure to add the documentation for it in the tables in the README, the pull request cannot be accepted without this addition. Thanks!
