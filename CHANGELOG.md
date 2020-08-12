@@ -1,10 +1,19 @@
-# Change Log
+# Changelog
 
 All notable changes to the "vue-vscode-snippets" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## 2.0.9
+## 2.1.0
+
+- Further Vue 3 Composition API support
+- Adds in Emit
+- Adds in named slot
+- Better TypeScript support
+- Removes increment/decrement
+- Updates gsap
+
+## 2.0.0
 
 - Vue 3 Composition API support
 

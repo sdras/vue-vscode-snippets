@@ -54,6 +54,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vmodel`          | Semantic v-model directive          |
 | `vmodel-num`      | Semantic v-model number directive   |
 | `von`             | v-on click handler with arguments   |
+| `vslot-named`     | Named slot                          |
 | `vel-props`       | Component element with props        |
 | `vsrc`            | Image src binding                   |
 | `vstyle`          | Inline style binding                |
