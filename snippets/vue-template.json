@@ -112,5 +112,15 @@
     "prefix": "vroutepath",
     "body": ["<router-link to=\"${1:path}\">${2:LinkTitle}</router-link>"],
     "description": "Path routing link"
+  },
+  "Vue Emit from Child": {
+    "prefix": "vemit-child",
+    "body": ["@change=\"$emit('change', $event.target.value)\""],
+    "description": "Vue Emit from Child Component"
+  },
+  "Vue Emit to Parent": {
+    "prefix": "vemit-parent",
+    "body": ["@change=\"${1:foo} = $event\""],
+    "description": "Vue Emit to Parent Component"
   }
 }
