@@ -2,6 +2,10 @@
 
 All notable changes to the "vue-vscode-snippets" extension will be documented in this file.
 
+## 2.1.4
+
+- Fix bug: put emit into template instead of script
+
 ## 2.1.3
 
 - Add in boilerplate to use Composition API inside Options API
