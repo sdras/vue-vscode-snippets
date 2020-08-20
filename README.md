@@ -4,7 +4,7 @@
 
 ## Description
 
-These snippets were built supercharge a workflow in the most seamless manner possible.
+These snippets were built to supercharge a workflow in the most seamless manner possible.
 
 This repo was built particularly for real world use. It doesn't catalogue the API definitions, rather, it focuses on developer ergonomics from the point of Vue of real world use. Included are the pieces I personally get sick of typing, and boilerplate that is helpful to stub out quickly.
 
