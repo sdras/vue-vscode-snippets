@@ -3,7 +3,7 @@
   "displayName": "Vue VSCode Snippets",
   "description": "Snippets that will supercharge your Vue workflow",
   "icon": "images/vue-logo.png",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "publisher": "sdras",
   "engines": {
     "vscode": "^1.14.0"
@@ -30,8 +30,7 @@
     "Snippets"
   ],
   "contributes": {
-    "snippets": [
-      {
+    "snippets": [{
         "language": "vue",
         "path": "./snippets/vue.json"
       },
