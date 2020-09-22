@@ -30,6 +30,10 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ## Snippets
 
+If you would like a UI overview of all available snippets in VS Code, you can install the extension [Snippets Ranger](https://marketplace.visualstudio.com/items?itemName=robole.snippets-ranger).
+
+![snippets ranger screenshot](/images/snippets-ranger.png)
+
 ### Vue
 
 | Snippet            | Purpose                                                      |
