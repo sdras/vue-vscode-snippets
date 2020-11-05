@@ -9,6 +9,16 @@
     ],
     "description": "Nuxt asyncData"
   },
+  "Nuxt Async": {
+    "prefix": "nasyncdataaxios",
+    "body": [
+      "async asyncData ({ ${1:$axios}, { ${2:params} }) {",
+      "\tconst data = await $axios.$get(`${3:endpoint/${params.slug}}`)",
+      "\treturn { data }",
+      "},"
+    ],
+    "description": "Nuxt asyncData with Axios module"
+  },
   "Nuxt Fetch": {
     "prefix": "nfetch",
     "body": [
@@ -18,6 +28,15 @@
       "},"
     ],
     "description": "Nuxt Fetch"
+  },
+  "Nuxt Fetch with Axios": {
+    "prefix": "nfetchaxios",
+    "body": [
+      "async fetch () {",
+      "\tlet this.data = await this.$axios.$get('${1:endpoint/${this.$route.params.slug}}')",
+      "},"
+    ],
+    "description": "Nuxt Fetch with Axios module"
   },
   "Nuxt Route Params": {
     "prefix": "nparam",
