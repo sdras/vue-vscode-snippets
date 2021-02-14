@@ -70,6 +70,8 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vroutename`      | router-link Named Routing           |
 | `vroutenameparam` | router-link Named with Parameters   |
 | `vroutepath`      | router-link Path Routing Link       |
+| `vemit-child`     | Emit event from child component     |
+| `vemit-parent`    | Emit event to parent component      |
 
 ### Script
 
@@ -88,8 +90,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vbeforedestroy`  | beforeDestroy lifecycle method                                           |
 | `vdestroyed`      | destroyed lifecycle method                                               |
 | `vprops`          | Props with type and default                                              |
-| `vemit-child`     | Emit event from child component                                          |
-| `vemit-parent`    | Emit event tp parent component                                           |
 | `vimport`         | Import one component into another                                        |
 | `vimport-dynamic` | Import one component that should be lazy loaded by webpack               |
 | `vcomponents`     | Import one component into another within the export statement            |
