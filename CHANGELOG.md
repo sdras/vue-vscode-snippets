@@ -2,6 +2,13 @@
 
 All notable changes to the "vue-vscode-snippets" extension will be documented in this file.
 
+## 2.2.0
+
+- Add in Nuxt axios module
+- Fix bug in emit- wrong snippet area
+- Update TS reference
+- Fix typo in README
+
 ## 2.1.5
 
 - Fix bug: fix dollar signs in emit
