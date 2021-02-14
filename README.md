@@ -167,14 +167,17 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `nfont` | link to include fonts in a nuxt project, in nuxt-config |
 | `ncss`  | link to css assets such as normalize                    |
 
+
 ### Nuxt Page
 
-| Snippet      | Purpose           |
-| ------------ | ----------------- |
-| `nasyncdata` | Nuxt asyncData    |
-| `nfetch`     | Nuxt Fetch        |
-| `nhead`      | Nuxt Head         |
-| `nparam`     | Nuxt Route Params |
+| Snippet           | Purpose                          |
+| ----------------- | -------------------------------- |
+| `nasyncdata`      | Nuxt asyncData                   |
+| `nasyncdataaxios` | Nuxt asyncData with Axios module |
+| `nfetch`          | Nuxt Fetch                       |
+| `nfetchaxios`     | Nuxt Fetch with Axios module     |
+| `nhead`           | Nuxt Head                        |
+| `nparam`          | Nuxt Route Params                |
 
 ### Extra (plaintext)
 
