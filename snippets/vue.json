@@ -190,6 +190,25 @@
     ],
     "description": "Base for Vue File Composition API with SCSS"
   },
+  "Vue Single File Component Setup Composition API": {
+    "prefix": "vbase-3-setup",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script setup>",
+      "",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Setup Composition API with SCSS"
+  },
   "Vue Single File Component Composition API Reactive": {
     "prefix": "vbase-3-reactive",
     "body": [
@@ -247,28 +266,47 @@
     ],
     "description": "Base for Vue File Composition API - Typescript"
   },
-	"Vue Single File Component with Class based Typescript format": {
-		"prefix": "vbase-ts-class",
-		"body": [
-			"<template>",
-			"\t<div>",
-			"",
-			"\t</div>",
-			"</template>",
-			"",
-			"<script lang=\"ts\">",
-			"\timport { Component, Vue } from 'vue-property-decorator';",
-            "",
-            "\t@Component",
-        	"\texport default class ${0} extends Vue {",
-			"\t\t",
-			"\t}",
-			"</script>",
-			"",
-			"<style scoped>",
-			"",
-			"</style>"
-		],
-		"description": "Base for Vue File with Class based Typescript format"
-	}
+  "Vue Single File Component Setup Composition API with Typescript": {
+    "prefix": "vbase-3-ts-setup",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Setup Composition API - Typescript"
+  },
+  "Vue Single File Component with Class based Typescript format": {
+    "prefix": "vbase-ts-class",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "\timport { Component, Vue } from 'vue-property-decorator';",
+      "",
+      "\t@Component",
+      "\texport default class ${0} extends Vue {",
+      "\t\t",
+      "\t}",
+      "</script>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File with Class based Typescript format"
+  }
 }
