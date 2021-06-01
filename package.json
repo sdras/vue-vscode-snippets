@@ -23,9 +23,7 @@
     "Composition API",
     "Vue Snippets"
   ],
-  "extensionDependencies": [
-    "octref.vetur"
-  ],
+  "extensionDependencies": [],
   "categories": [
     "Snippets"
   ],
