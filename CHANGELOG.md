@@ -2,6 +2,10 @@
 
 All notable changes to the "vue-vscode-snippets" extension will be documented in this file.
 
+## 2.2.1
+
+- remove name of package for composition api now that we're at vue 3
+
 ## 2.2.0
 
 - Add in Nuxt axios module
