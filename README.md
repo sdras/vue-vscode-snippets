@@ -28,6 +28,13 @@ ext install Vue VSCode Snippets
 
 You can enable tab completion (recommended) by opening `Code > Preferences > Settings` (on a Mac) and applying `"editor.tabCompletion": "onlySnippets"` to your personal settings
 
+### Volar Usage
+
+This extension works out of the box with Vetur, but if you would rather use Volar, either remove `extensionDependencies` or set it to `volar` instead of `vetur`. You can find this file in the extensions package.json (with [versionnumber] replaced with the current installed version, i.e. 2.2.1):
+
+- Mac: `~/.vscode/extensions/sdras.vue-vscode-snippets-[versionnumber]/package.json`
+- Windows: `C:\Users\<USER_NAME>\.vscode\extensions\sdras.vue-vscode-snippets-[versionnumber]`
+
 ## Snippets
 
 ### Vue
