@@ -24,7 +24,6 @@
     "Vue Snippets"
   ],
   "extensionDependencies": [
-    "octref.vetur"
   ],
   "categories": [
     "Snippets"
@@ -83,6 +82,6 @@
         "language": "typescript",
         "path": "./snippets/nuxt-config.json"
       }
-    ]
+		]
   }
 }
