@@ -418,5 +418,19 @@
       "}"
     ],
     "description": "Use Composition API within Options API"
+  },
+  "Vue MetaInfo": {
+    "prefix": "vmetainfo",
+    "body": [
+      "import VueMeta from 'vue-meta';",
+      "",
+      "export default {",
+      "metaInfo: {",
+      "\ttitle: '${1:title}',",
+      "\tmeta: [",
+      "\t\t{ name: 'description', content: '${2:description}', vmid: 'description' }",
+      "};"
+    ],
+    "description": "metaInfo inside a vue component"
   }
 }
