@@ -23,9 +23,6 @@
     "Composition API",
     "Vue Snippets"
   ],
-  "extensionDependencies": [
-    "octref.vetur"
-  ],
   "categories": [
     "Snippets"
   ],
@@ -41,10 +38,6 @@
       },
       {
         "language": "html",
-        "path": "./snippets/vue-template.json"
-      },
-      {
-        "language": "vue-html",
         "path": "./snippets/vue-template.json"
       },
       {
