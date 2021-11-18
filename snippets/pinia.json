@@ -1,0 +1,20 @@
+{
+    "Pinia Store": {
+        "prefix": "pstore",
+        "body": [
+            "import { defineStore } from 'pinia'",
+            "",
+            "export const useCounterStore = defineStore('counter', {",
+            "\tstate: () => {",
+            "\t\treturn { count: 0 }",
+            "\t},",
+            "\tactions: {",
+            "\t\tincrement() {",
+            "\t\t\tthis.count++",
+            "\t\t},",
+            "\t},",
+            "})"
+          ],
+        "description": "Basic Pinia Store"
+    }
+}

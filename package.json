@@ -75,6 +75,10 @@
       {
         "language": "typescript",
         "path": "./snippets/nuxt-config.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/pinia.json"
       }
     ]
   }
