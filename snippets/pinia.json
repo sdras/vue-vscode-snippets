@@ -29,7 +29,7 @@
     "description": "Destructure Pinia State"
   },
   "Pinia Store Patch": {
-    "prefix": "pstorepatch",
+    "prefix": "ppatch",
     "body": [
       "store.$patch({",
       "\tcount: store.count++",
@@ -38,7 +38,7 @@
     "description": "Pinia Store Patch"
   },
   "Pinia Store Patch Function": {
-    "prefix": "pstorepatchfunction",
+    "prefix": "ppatchf",
     "body": [
       "store.$patch((state) => {",
       "\tstate.items.push({ name: 'shoes', quantity: 1 })",
