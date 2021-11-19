@@ -146,7 +146,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | Snippet         | Purpose                        |
 | --------------- | ------------------------------ |
 | `pstore`        | Base for Pinia store.ts        |
-| `pstateref`     | Vuex Getter                    |
+| `pstateref`     | Access Pinia State             |
 | `ppatch`        | Pinia Patch                    |
 | `ppatchf`       | Pinia Patch Function           |
 
