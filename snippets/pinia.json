@@ -18,7 +18,7 @@
     "description": "Basic Pinia Store"
   },
   "Pinia Store State Refs": {
-    "prefix": "pstorestaterefs",
+    "prefix": "pstateref",
     "body": [
       "import { useCounterStore } from '@/store/main'",
       "",
