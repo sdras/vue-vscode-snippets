@@ -24,7 +24,7 @@
     "Vue Snippets"
   ],
   "extensionDependencies": [
-    "octref.vetur"
+    "johnsoncodehk.volar"
   ],
   "categories": [
     "Snippets"
