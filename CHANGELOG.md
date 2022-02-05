@@ -2,6 +2,10 @@
 
 All notable changes to the "vue-vscode-snippets" extension will be documented in this file.
 
+## 3.1.1
+
+- Update README
+
 ## 3.1.0
 
 - Remove any extension dependencies
