@@ -54,6 +54,10 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/vue-script-pinia.json"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/vue-script-router.json"
       },
       {
@@ -71,6 +75,10 @@
       {
         "language": "typescript",
         "path": "./snippets/vue-script-vuex.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-script-pinia.json"
       },
       {
         "language": "typescript",

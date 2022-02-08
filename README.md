@@ -141,6 +141,12 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vstore-import` | Import vuex store into main.js |
 | `vstore2`       | Updated Base for Vuex store    |
 
+### Pinia
+
+| Snippet         | Purpose                        |
+| --------------- | ------------------------------ |
+| `v-pinia-store` | Base for Pinia store           |
+
 ### Vue Router
 
 | Snippet              | Purpose                                       |
