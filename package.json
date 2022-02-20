@@ -43,6 +43,10 @@
         "path": "./snippets/vue-template.json"
       },
       {
+        "language": "vue-html",
+        "path": "./snippets/vue-template.json"
+      },
+      {
         "language": "javascript",
         "path": "./snippets/vue-script.json"
       },
