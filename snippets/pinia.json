@@ -1,0 +1,57 @@
+{
+  "Pinia Store": {
+    "prefix": "pstore",
+    "body": [
+      "import { defineStore } from 'pinia'",
+      "",
+      "export const useCounterStore = defineStore('counter', {",
+      "\tstate: () => {",
+      "\t\treturn { count: 0 }",
+      "\t},",
+      "\tactions: {",
+      "\t\tincrement() {",
+      "\t\t\tthis.count++",
+      "\t\t},",
+      "\t},",
+      "})"
+    ],
+    "description": "Basic Pinia Store"
+  },
+  "Pinia Store State Refs": {
+    "prefix": "pstateref",
+    "body": [
+      "import { useCounterStore } from '@/store/main'",
+      "",
+      "const store = useCounterStore()",
+      "const { count } = storeToRefs(store)",
+      "// You can access destructured state like so: store.counter++"
+    ],
+    "description": "Destructure Pinia State"
+  },
+  "Pinia Store Patch": {
+    "prefix": "ppatch",
+    "body": [
+      "store.$patch({",
+      "\tcount: store.count++",
+      "})"
+    ],
+    "description": "Pinia Store Patch"
+  },
+  "Pinia Store Patch Function": {
+    "prefix": "ppatchf",
+    "body": [
+      "store.$patch((state) => {",
+      "\tstate.items.push({ name: 'shoes', quantity: 1 })",
+      "\tstate.hasChanged = true",
+      "})"
+    ],
+    "description": "Pinia Store Patch Function"
+  },
+  "Pinia Import Store": {
+    "prefix": "pstore-import",
+    "body": [
+      "import { useCounterStore } from '@/store/main'"
+    ],
+    "description": "Import a Pinia store"
+  }
+}

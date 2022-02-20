@@ -21,6 +21,8 @@
     "Vue 3",
     "Vue 2",
     "Composition API",
+    "Vuex",
+    "Pinia",
     "Vue Snippets"
   ],
   "categories": [
@@ -75,6 +77,10 @@
       {
         "language": "typescript",
         "path": "./snippets/nuxt-config.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/pinia.json"
       }
     ]
   }
