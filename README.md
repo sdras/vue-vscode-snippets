@@ -178,7 +178,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `nfont` | link to include fonts in a nuxt project, in nuxt-config |
 | `ncss`  | link to css assets such as normalize                    |
 
-
 ### Nuxt Page
 
 | Snippet           | Purpose                          |
