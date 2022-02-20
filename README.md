@@ -113,6 +113,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 | Snippet             | Purpose                                               |
 | ------------------- | ----------------------------------------------------- |
+| `vdefineprops`      | Vue Composition API - defineProps with Interface      |
 | `v3reactive`        | Vue Composition API - reactive                        |
 | `v3reactive-setup`  | Vue Composition API - reactive with setup boilerplate |
 | `v3computed`        | Vue Composition API - computed                        |
