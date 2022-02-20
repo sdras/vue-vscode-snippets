@@ -304,6 +304,19 @@
     ],
     "description": "vue.config.js"
   },
+  "Vue Composition API - defineProps with Interface": {
+    "prefix": "vdefineprops",
+    "body": [
+      "interface Props {",
+      "\t${1:msg: string}",
+      "}",
+      "\t",
+      "// For default values for your props, use :",
+      "// withDefaults(defineProps<Props>(), { msg: 'myDefaultValue' })}",
+      "defineProps<Props>()"
+    ],
+    "description": "Vue Composition api - defineProps with Interface"
+  },
   "Vue Composition API - Reactive": {
     "prefix": "v3reactive",
     "body": ["const ${1:name} = reactive({", "\t${2:count}: ${3:0}", "})"],
