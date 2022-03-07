@@ -313,7 +313,7 @@
       "",
       "// For default values for your props, use :",
       "// withDefaults(defineProps<Props>(), { msg: 'myDefaultValue' })}",
-      "defineProps<Props>()"
+      "const props = defineProps<Props>()"
     ],
     "description": "Vue Composition api - defineProps with Interface"
   },
@@ -321,11 +321,11 @@
     "prefix": "vdefineemits",
     "body": [
       "interface Emits {",
-      "\t$(e: 'change', id: number): void",
-      "\t$(e: 'update', value: string): void",
+      "\t(e: 'change', id: number): void",
+      "\t(e: 'update', value: string): void",
       "}",
       "",
-      "defineEmits<Emits>()"
+      "const emit = defineEmits<Emits>()"
     ],
     "description": "Vue Composition api - defineEmits with Interface"
   },
