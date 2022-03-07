@@ -305,7 +305,7 @@
     "description": "vue.config.js"
   },
   "Vue Composition API - defineProps with Interface": {
-    "prefix": "vdefineprops",
+    "prefix": "v3props",
     "body": [
       "interface Props {",
       "\t${1:msg: string}",
@@ -318,7 +318,7 @@
     "description": "Vue Composition api - defineProps with Interface"
   },
   "Vue Composition API - defineEmits with Interface": {
-    "prefix": "vdefineemits",
+    "prefix": "v3emits",
     "body": [
       "interface Emits {",
       "\t(e: 'change', id: number): void",
