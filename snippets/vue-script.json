@@ -339,6 +339,23 @@
     "body": ["const ${1:name} = computed(() => {", "\treturn ${2}", "})"],
     "description": "Vue Composition api - computed"
   },
+  "Vue Composition API - Computed Get / Set": {
+    "prefix": "v3computedgetset",
+    "body": [
+      "const props = defineProps(['modelValue'])",
+      "const emit = defineEmits(['update:modelValue'])",
+      "",
+      "const value = computed({",
+      "\tget() {",
+      "\t\treturn props.modelValue",
+      "\t},",
+      "\tset(value: string) {",
+      "\t\temit('update:modelValue', value)",
+      "\t}",
+      "})"
+    ],
+    "description": "Vue Composition api - computed get / set"
+  },
   "Vue Composition API - watch - single source": {
     "prefix": "v3watch",
     "body": ["watch(() => ${1:foo}, (newValue, oldValue) => {", "\t${2}", "})"],
