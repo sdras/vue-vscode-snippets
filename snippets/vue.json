@@ -209,6 +209,25 @@
     ],
     "description": "Base for Vue File Setup Composition API with SCSS"
   },
+  "Vue Single File Component Setup First Composition API": {
+    "prefix": "vbase-3-setup-first",
+    "body": [
+      "<script setup>",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Setup First Composition API with SCSS"
+  },
   "Vue Single File Component Composition API Reactive": {
     "prefix": "vbase-3-reactive",
     "body": [
@@ -284,6 +303,25 @@
       "</style>"
     ],
     "description": "Base for Vue File Setup Composition API - Typescript"
+  },
+  "Vue Single File Component Setup First Composition API with Typescript": {
+    "prefix": "vbase-3-ts-setup-first",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Setup First Composition API - Typescript"
   },
   "Vue Single File Component with Class based Typescript format": {
     "prefix": "vbase-ts-class",
