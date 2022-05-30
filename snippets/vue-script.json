@@ -329,6 +329,27 @@
     ],
     "description": "Vue Composition api - defineEmits with Interface"
   },
+  "Vue Composition API - Store using Provide / Inject": {
+    "prefix": "v3store",
+    "body": [
+      "import { provide, inject, InjectionKey } from  'vue'",
+      "",
+      "const store = () => {}",
+      "",
+      "const storeKey: InjectionKey<ReturnType<typeof store>> = Symbol('composition-store')",
+      "",
+      "export const provideStore = () => {",
+      "\tconst state = store()",
+      "\tprovide(storeKey, state)",
+      "\treturn state",
+      "}",
+      "",
+      "export const useStore = () => {",
+      "\treturn inject(storeKey)",
+      "}"
+    ],
+    "description": "Vue Composition api - Store using Provide / Inject"
+  },
   "Vue Composition API - Reactive": {
     "prefix": "v3reactive",
     "body": ["const ${1:name} = reactive({", "\t${2:count}: ${3:0}", "})"],
