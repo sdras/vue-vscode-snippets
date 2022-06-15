@@ -154,6 +154,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vbeforerouteenter`  | Vue Router component guards beforeRouteEnter  |
 | `vbeforerouteupdate` | Vue Router component guards beforeRouteUpdate |
 | `vbeforerouteleave`  | Vue Router component guards beforeRouteLeave  |
+| `vroute-blob`        | Vue Router route object for a webpage         |
 
 ### Vue Config
 
