@@ -108,6 +108,11 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vcommit`         | Commit to Vuex store in methods for mutation                             |
 | `vdispatch`       | Dispatch to Vuex store in methods for action                             |
 | `vtest`           | A simple unit testing component                                          |
+| `vfunc-m`         | Extra method function                                                    |
+| `vfunc-m-arg`     | Extra method function with arguments                                     |                
+| `vfunc-c`         | Extra computed function                                                  |
+| `vfunc-c-arg`     | Extra computed function with arguments                                   |
+| `vapi-shell`      | Empty export default function                                            |
 
 ### Vue Composition API
 
