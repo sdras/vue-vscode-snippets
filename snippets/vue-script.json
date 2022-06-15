@@ -418,5 +418,51 @@
       "}"
     ],
     "description": "Use Composition API within Options API"
-  }
+  },
+  "Vue extra method function": {
+		"prefix": ["vfunc-m"],
+		"body": [
+			"${1:funcName}(){",
+			"\t${2:JSExpr}",
+			"}",
+		],
+		"description": "Extra Vue Method function"
+	},
+	"Vue extra method function w argumemt": {
+		"prefix": ["vfunc-m-arg"],
+		"body": [
+			
+			"${1:funcName}(${3:argLine}){",
+			"\t${2:JSExpr}",
+			"}",
+		],
+		"description": "Extra Vue Method function with argument"
+	},
+	"Vue extra computed function": {
+		"prefix": ["vfunc-c"],
+		"body": [		
+			"${1:funcName}(){",
+			"\treturn ${2:JSExpr}",
+			"}",
+		],
+		"description": "Extra Vue Computed function"
+	},
+	"Vue extra computed function w argument": {
+		"prefix": ["vfunc-c-arg"],
+		"body": [			
+			"${1:funcName}(${3:argLine}){",
+			"\treturn ${2:JSExpr}",
+			"}",
+		],
+		"description": "Extra Vue Computed function with argument"
+	},
+	"Vue empty api body": {
+		"prefix": ["vapi-shell"],
+		"body": [					
+			"export default {",
+			"\t/*Define your API here please*/",	  
+			"};",
+		],
+		"description": "Vue blank api"
+	},
 }
