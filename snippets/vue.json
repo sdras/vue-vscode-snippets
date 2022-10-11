@@ -195,7 +195,7 @@
     "body": [
       "<template>",
       "\t<div>",
-      "",
+      "\t${0}",
       "\t</div>",
       "</template>",
       "",
