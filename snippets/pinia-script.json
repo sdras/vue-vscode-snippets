@@ -1,0 +1,26 @@
+{
+    "Pinia Store": {
+        "prefix": "pstore",
+        "description": "Define a Pinia store",
+        "body": [
+            "import { defineStore, acceptHMRUpdate } from 'pinia';",
+            "",
+            "// eslint-disable-next-line import/prefer-default-export",
+            "export const use${1:store}Store = defineStore('${1:store}', {",
+            "  state: () => ({",
+            "    ${2:key}: ${3:value},",
+            "  }),",
+            "",
+            "  getters: {",
+            "  },",
+            "",
+            "  actions: {",
+            "  },",
+            "});",
+            "",
+            "if (module.hot) {",
+            "  module.hot.accept(acceptHMRUpdate(use${1:store}Store, module.hot));",
+            "}"
+        ]
+    }
+}
