@@ -58,6 +58,10 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/pinia-script.json"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/nuxt-config.json"
       },
       {
