@@ -266,6 +266,32 @@
     ],
     "description": "Base for Vue File Composition API - Typescript"
   },
+  "Vue Single File Component Composition API with Typescript and SCSS": {
+    "prefix": "vbase-3-ts-scss",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tsetup () {",
+      "\t\t${0}\n",
+      "\t\treturn {}",
+      "\t}",
+      "})",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Composition API - Typescript"
+  },
   "Vue Single File Component Setup Composition API with Typescript": {
     "prefix": "vbase-3-ts-setup",
     "body": [
