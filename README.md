@@ -32,22 +32,22 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Vue
 
-| Snippet            | Purpose                                                      |
-| ------------------ | ------------------------------------------------------------ |
-| `vbase`            | Single file component base with SCSS                         |
-| `vbase-3`          | Single File component Composition API with SCSS              |
-| `vbase-3-setup`    | Single File component setup Composition API with SCSS        |
-| `vbase-3-reactive` | Single File component Composition API with Reactive and SCSS |
-| `vbase-css`        | Single file component base with CSS                          |
-| `vbase-pcss`       | Single file component base with PostCSS                      |
-| `vbase-styl`       | Single file component base with Stylus                       |
-| `vbase-ts`         | Single file component base with Typescript                   |
-| `vbase-ts-class`   | Single file component base with Typescript Class Format      |
-| `vbase-3-ts`       | Single File component Composition API with Typescript        |
-| `vbase-3-ts-setup` | Single File component setup Composition API with Typescript  |
-| `vbase-ns`         | Single file component with no styles                         |
-| `vbase-sass`       | Single file component base with SASS                         |
-| `vbase-less`       | Single file component base with LESS                         |
+| Snippet                        | Purpose                                                                       |
+| ------------------------------ | ----------------------------------------------------------------------------- |
+| `vbase`                        | Single file component base with SCSS                                          |
+| `vbase-3`                      | Single File component Composition API with SCSS                               |
+| `vbase-3-setup`                | Single File component setup Composition API with SCSS                         |
+| `vbase-3-reactive`             | Single File component Composition API with Reactive and SCSS                  |
+| `vbase-css`                    | Single file component base with CSS                                           |
+| `vbase-pcss`                   | Single file component base with PostCSS                                       |
+| `vbase-styl`                   | Single file component base with Stylus                                        |
+| `vbase-ts`                     | Single file component base with Typescript                                    |
+| `vbase-ts-class`               | Single file component base with Typescript Class Format                       |
+| `vbase-3-ts`                   | Single File component Composition API with Typescript                         |
+| `vbase-3-ts-setup`             | Single File component setup Composition API with Typescript                   |
+| `vbase-ns`                     | Single file component with no styles                                          |
+| `vbase-sass`                   | Single file component base with SASS                                          |
+| `vbase-less`                   | Single file component base with LESS                                          |
 
 ### Template
 
