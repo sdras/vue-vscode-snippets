@@ -285,6 +285,41 @@
     ],
     "description": "Base for Vue File Setup Composition API - Typescript"
   },
+  "Vue Single File Component Setup Composition API with Typescript, props, and emits": {
+    "prefix": "vbase-3-ts-setup-props-emits",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "export interface Props {",
+      "\tuser?: string",
+      "}",
+      "const props = withDefaults(defineProps<Props>(), {",
+      "\tuser: 'foo'",
+      "})",
+      "",
+      "const emits = defineEmits<{",
+      "\t(e: 'update:user', newValue: string): void",
+      "}>()",
+      "const onClick = () => emits('update:user', 'bar');",
+      "",
+      "//in parent component:",
+      "//\tv-model:user=\"userParentVariable\"",
+      "//OR:",
+      "//\t:user=\"userParentVariable\" @update:user=\"userParentVariable = $event\"",
+      "",
+      "</script>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Setup Composition API - Typescript with defineProps & defineEmits"
+  },
   "Vue Single File Component with Class based Typescript format": {
     "prefix": "vbase-ts-class",
     "body": [
