@@ -113,9 +113,13 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 | Snippet             | Purpose                                               |
 | ------------------- | ----------------------------------------------------- |
+| `v3props`           | Vue Composition API - defineProps with Interface      |
+| `v3emits`           | Vue Composition API - defineEmits with Interface      |
+| `v3store`           | Vue Composition API - Store using Provide / Inject    |
 | `v3reactive`        | Vue Composition API - reactive                        |
 | `v3reactive-setup`  | Vue Composition API - reactive with setup boilerplate |
 | `v3computed`        | Vue Composition API - computed                        |
+| `v3computedgetset`  | Vue Composition API - computed get / set              |
 | `v3watch`           | Vue Composition API - watcher single source           |
 | `v3watch-array`     | Vue Composition API - watch as array                  |
 | `v3watcheffect`     | Vue Composition API - watchEffect                     |
