@@ -285,6 +285,27 @@
     ],
     "description": "Base for Vue File Setup Composition API - Typescript"
   },
+  "Vue Single File Generic Component": {
+    "prefix": "vbase-3-generic",
+    "body": [
+      "<script setup lang=\"ts\" generic=\"T\">",
+      "const props = defineProps<{",
+      "items: T[]",
+      "selected: T",
+      "}>()",
+      "",
+      "</script>",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ]
+  },
   "Vue Single File Component with Class based Typescript format": {
     "prefix": "vbase-ts-class",
     "body": [

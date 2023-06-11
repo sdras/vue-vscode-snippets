@@ -321,11 +321,23 @@
     "prefix": "v3emits",
     "body": [
       "interface Emits {",
-      "\t(e: 'change', id: number): void",
-      "\t(e: 'update', value: string): void",
+        "\tfoo: [id: number]",
+        "\tbar: [name: string, ...rest: any[]]",
       "}",
       "",
       "const emit = defineEmits<Emits>()"
+    ],
+    "description": "Vue Composition api - defineEmits with Interface"
+  },
+  "Vue Composition API - defineSlots with Interface": {
+    "prefix": "v3slots",
+    "body": [
+      "interface Slots {",
+        "\tdefault?: (props: { msg: string }) => any",
+        "\titem?: (props: { id: number }) => any",
+      "}",
+      "",
+      "const slots = defineSlots<Slots>()"
     ],
     "description": "Vue Composition api - defineEmits with Interface"
   },
