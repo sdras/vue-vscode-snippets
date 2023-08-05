@@ -129,6 +129,13 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `v3onbeforeunmount` | Lifecycle hook - (beforeDestroy) onBeforeUnmount      |
 | `v3useinoptions`    | Use Composition API in Options API                    |
 
+### Pinia
+
+| Snippet         | Purpose                        |
+| --------------- | ------------------------------ |
+| `pinia-options` | Pinia Options Store            |
+| `pinia-setup`   | Pinia Setup Store              |
+
 ### Vuex
 
 | Snippet         | Purpose                        |
