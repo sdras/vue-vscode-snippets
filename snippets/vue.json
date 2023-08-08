@@ -1,5 +1,5 @@
 {
-  "Vue Single File Component": {
+  "Vue Single File Component With Options API": {
     "prefix": "vbase",
     "body": [
       "<template>",
@@ -18,9 +18,31 @@
       "",
       "</style>"
     ],
-    "description": "Base for Vue File with SCSS"
+    "description": "Base for Vue File with SCSS with Options API"
   },
-  "Vue Single File Component with SASS": {
+  "Vue Single File Options API Component With Script At The Top With Options API": {
+    "prefix": "vbase-t",
+    "body": [
+      "<script>",
+      "\texport default {",
+      "\t\t${0}",
+      "\t}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Options API Vue File With Script Above Template with Options API"
+  },
+  
+  "Vue Single File Component with SASS With Options API": {
     "prefix": "vbase-sass",
     "body": [
       "<template>",
@@ -39,9 +61,9 @@
       "",
       "</style>"
     ],
-    "description": "Base for Vue File with PostCSS"
+    "description": "Base for Vue File with PostCSS with Options API"
   },
-  "Vue Single File Component with LESS": {
+  "Vue Single File Component with LESS With Options API": {
     "prefix": "vbase-less",
     "body": [
       "<template>",
@@ -60,9 +82,9 @@
       "",
       "</style>"
     ],
-    "description": "Base for Vue File with PostCSS"
+    "description": "Base for Vue File with PostCSS with Options API"
   },
-  "Vue Single File Component with postcss": {
+  "Vue Single File Component with postcss With Options API": {
     "prefix": "vbase-pcss",
     "body": [
       "<template>",
@@ -81,9 +103,9 @@
       "",
       "</style>"
     ],
-    "description": "Base for Vue File with PostCSS"
+    "description": "Base for Vue File with PostCSS with Options API"
   },
-  "Vue Single File Component with Css": {
+  "Vue Single File Component with Css With Options API": {
     "prefix": "vbase-css",
     "body": [
       "<template>",
@@ -102,9 +124,9 @@
       "",
       "</style>"
     ],
-    "description": "Base for Vue File with CSS"
+    "description": "Base for Vue File with CSS with Options API"
   },
-  "Vue Single File Component with Stylus": {
+  "Vue Single File Component with Stylus With Options API": {
     "prefix": "vbase-styl",
     "body": [
       "<template>",
@@ -123,9 +145,9 @@
       "",
       "</style>"
     ],
-    "description": "Base for Vue File with Stylus"
+    "description": "Base for Vue File with Stylus with Options API"
   },
-  "Vue Single File Component with Typescript": {
+  "Vue Single File Component with Typescript With Options API": {
     "prefix": "vbase-ts",
     "body": [
       "<template>",
@@ -146,9 +168,32 @@
       "",
       "</style>"
     ],
-    "description": "Base for Vue File with Typescript"
+    "description": "Base for Vue File with Typescript with Options API"
   },
-  "Vue Single File Component with No Style": {
+  "Vue Single File Component with Typescript With Script At The Top With Options API": {
+    "prefix": "vbase-ts-t",
+    "body": [
+      "<script lang=\"ts\">",
+      "\timport Vue from 'vue'",
+      "",
+      "\texport default Vue.extend({",
+      "\t\t${0}",
+      "\t})",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File with Typescript With Script At The Top with Options API"
+  },
+  "Vue Single File Component with No Style With Options API": {
     "prefix": "vbase-ns",
     "body": [
       "<template>",
@@ -163,7 +208,7 @@
       "\t}",
       "</script>"
     ],
-    "description": "Base for Vue File with no styles"
+    "description": "Base for Vue File with no styles with Options API"
   },
   "Vue Single File Component Composition API": {
     "prefix": "vbase-3",
@@ -209,6 +254,25 @@
     ],
     "description": "Base for Vue File Setup Composition API with SCSS"
   },
+  "Vue Single File Component Setup Composition API With Script At The Top": {
+    "prefix": "vbase-3-setup-t",
+    "body": [
+      "<script setup>",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Setup Composition API with SCSS with Script at the top"
+  },  
   "Vue Single File Component Composition API Reactive": {
     "prefix": "vbase-3-reactive",
     "body": [
@@ -266,6 +330,32 @@
     ],
     "description": "Base for Vue File Composition API - Typescript"
   },
+  "Vue Single File Component Composition API with Typescript with Script at the Top": {
+    "prefix": "vbase-3-ts-t",
+    "body": [
+      "export default defineComponent({",
+      "\tsetup () {",
+      "\t\t${0}\n",
+      "\t\treturn {}",
+      "\t}",
+      "})",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Composition API - Typescript"
+  },
   "Vue Single File Component Setup Composition API with Typescript": {
     "prefix": "vbase-3-ts-setup",
     "body": [
@@ -284,6 +374,25 @@
       "</style>"
     ],
     "description": "Base for Vue File Setup Composition API - Typescript"
+  },
+  "Vue Single File Component Setup Composition API with Typescript With Script At The Top": {
+    "prefix": "vbase-3-ts-setup-t",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Setup Composition API - Typescript With Script at the top"
   },
   "Vue Single File Component with Class based Typescript format": {
     "prefix": "vbase-ts-class",
