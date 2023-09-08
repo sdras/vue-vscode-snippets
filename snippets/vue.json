@@ -12,7 +12,7 @@
       "\texport default {",
       "\t\t${0}",
       "\t}",
-      "</script>",.
+      "</script>",
       "",
       "<style lang=\"scss\" scoped>",
       "",
