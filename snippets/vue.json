@@ -286,7 +286,7 @@
     "description": "Base for Vue File Setup Composition API - Typescript"
   },
     "Vue Single File Component Setup Composition API with Typescript with Pug no style": {
-    "prefix": "vbase-3-ts-setup",
+    "prefix": "vbase-3-ts-setup-pug",
     "body": [
       "<template lang=\"pug\">",
       "\tdiv",
