@@ -12,7 +12,7 @@
       "\texport default {",
       "\t\t${0}",
       "\t}",
-      "</script>",
+      "</script>",.
       "",
       "<style lang=\"scss\" scoped>",
       "",
@@ -284,6 +284,21 @@
       "</style>"
     ],
     "description": "Base for Vue File Setup Composition API - Typescript"
+  },
+    "Vue Single File Component Setup Composition API with Typescript with Pug no style": {
+    "prefix": "vbase-3-ts-setup",
+    "body": [
+      "<template lang=\"pug\">",
+      "\tdiv",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>"
+    ],
+    "description": "Base for Vue File Setup Composition API - Typescript & Pug"
   },
   "Vue Single File Component with Class based Typescript format": {
     "prefix": "vbase-ts-class",
