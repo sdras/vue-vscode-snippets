@@ -317,29 +317,32 @@
     ],
     "description": "Vue Composition api - defineProps with Interface"
   },
-  "Vue Composition API - defineEmits with Interface": {
+  "Vue Composition API - defineEmits": {
     "prefix": "v3emits",
     "body": [
-      "interface Emits {",
+      "const emit = defineEmits<{",
         "\tfoo: [id: number]",
         "\tbar: [name: string, ...rest: any[]]",
-      "}",
-      "",
-      "const emit = defineEmits<Emits>()"
+      "}>()"
     ],
-    "description": "Vue Composition api - defineEmits with Interface"
+    "description": "Vue Composition api - defineEmits"
   },
-  "Vue Composition API - defineSlots with Interface": {
+  "Vue Composition API - defineSlots": {
     "prefix": "v3slots",
     "body": [
-      "interface Slots {",
+      "const slots = defineSlots<{",
         "\tdefault?: (props: { msg: string }) => any",
         "\titem?: (props: { id: number }) => any",
-      "}",
-      "",
-      "const slots = defineSlots<Slots>()"
+      "}>()"
     ],
-    "description": "Vue Composition api - defineEmits with Interface"
+    "description": "Vue Composition api - defineSlots"
+  },
+  "Vue Composition API - defineModel": {
+    "prefix": "v3model",
+    "body": [
+      "const title = defineModel('title', { required: true })"
+    ],
+    "description": "Vue Composition api - defineModel"
   },
   "Vue Composition API - Store using Provide / Inject": {
     "prefix": "v3store",
