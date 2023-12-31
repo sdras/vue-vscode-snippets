@@ -304,6 +304,67 @@
     ],
     "description": "vue.config.js"
   },
+  "Vue Composition API - defineProps with Interface": {
+    "prefix": "v3props",
+    "body": [
+      "interface Props {",
+      "\t${1:msg: string}",
+      "}",
+      "",
+      "// For default values for your props, use :",
+      "// withDefaults(defineProps<Props>(), { msg: 'myDefaultValue' })}",
+      "const props = defineProps<Props>()"
+    ],
+    "description": "Vue Composition api - defineProps with Interface"
+  },
+  "Vue Composition API - defineEmits": {
+    "prefix": "v3emits",
+    "body": [
+      "const emit = defineEmits<{",
+        "\tfoo: [id: number]",
+        "\tbar: [name: string, ...rest: any[]]",
+      "}>()"
+    ],
+    "description": "Vue Composition api - defineEmits"
+  },
+  "Vue Composition API - defineSlots": {
+    "prefix": "v3slots",
+    "body": [
+      "const slots = defineSlots<{",
+        "\tdefault?: (props: { msg: string }) => any",
+        "\titem?: (props: { id: number }) => any",
+      "}>()"
+    ],
+    "description": "Vue Composition api - defineSlots"
+  },
+  "Vue Composition API - defineModel": {
+    "prefix": "v3model",
+    "body": [
+      "const title = defineModel('title', { required: true })"
+    ],
+    "description": "Vue Composition api - defineModel"
+  },
+  "Vue Composition API - Store using Provide / Inject": {
+    "prefix": "v3store",
+    "body": [
+      "import { provide, inject, InjectionKey } from  'vue'",
+      "",
+      "const store = () => {}",
+      "",
+      "const storeKey: InjectionKey<ReturnType<typeof store>> = Symbol('composition-store')",
+      "",
+      "export const provideStore = () => {",
+      "\tconst state = store()",
+      "\tprovide(storeKey, state)",
+      "\treturn state",
+      "}",
+      "",
+      "export const useStore = () => {",
+      "\treturn inject(storeKey)",
+      "}"
+    ],
+    "description": "Vue Composition api - Store using Provide / Inject"
+  },
   "Vue Composition API - Reactive": {
     "prefix": "v3reactive",
     "body": ["const ${1:name} = reactive({", "\t${2:count}: ${3:0}", "})"],
@@ -313,6 +374,23 @@
     "prefix": "v3computed",
     "body": ["const ${1:name} = computed(() => {", "\treturn ${2}", "})"],
     "description": "Vue Composition api - computed"
+  },
+  "Vue Composition API - Computed Get / Set": {
+    "prefix": "v3computedgetset",
+    "body": [
+      "const props = defineProps(['modelValue'])",
+      "const emit = defineEmits(['update:modelValue'])",
+      "",
+      "const value = computed({",
+      "\tget() {",
+      "\t\treturn props.modelValue",
+      "\t},",
+      "\tset(value: string) {",
+      "\t\temit('update:modelValue', value)",
+      "\t}",
+      "})"
+    ],
+    "description": "Vue Composition api - computed get / set"
   },
   "Vue Composition API - watch - single source": {
     "prefix": "v3watch",
