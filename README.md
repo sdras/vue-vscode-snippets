@@ -45,6 +45,7 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vbase-ts-class`   | Single file component base with Typescript Class Format      |
 | `vbase-3-ts`       | Single File component Composition API with Typescript        |
 | `vbase-3-ts-setup` | Single File component setup Composition API with Typescript  |
+| `vbase-3-ts-sass`  | Single File component setup Composition API with Typescript and SASS |
 | `vbase-ns`         | Single file component with no styles                         |
 | `vbase-sass`       | Single file component base with SASS                         |
 | `vbase-less`       | Single file component base with LESS                         |
