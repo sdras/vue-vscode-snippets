@@ -285,6 +285,25 @@
     ],
     "description": "Base for Vue File Setup Composition API - Typescript"
   },
+  "Vue Single File Component Setup Composition API with Typescript and SASS": {
+    "prefix": "vbase-3-ts-setup-sass",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<style lang=\"sass\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue File Setup Composition API - Typescript and SASS"
+  },
   "Vue Single File Component with Class based Typescript format": {
     "prefix": "vbase-ts-class",
     "body": [
