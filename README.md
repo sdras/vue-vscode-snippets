@@ -32,22 +32,27 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Vue
 
-| Snippet            | Purpose                                                      |
-| ------------------ | ------------------------------------------------------------ |
-| `vbase`            | Single file component base with SCSS                         |
-| `vbase-3`          | Single File component Composition API with SCSS              |
-| `vbase-3-setup`    | Single File component setup Composition API with SCSS        |
-| `vbase-3-reactive` | Single File component Composition API with Reactive and SCSS |
-| `vbase-css`        | Single file component base with CSS                          |
-| `vbase-pcss`       | Single file component base with PostCSS                      |
-| `vbase-styl`       | Single file component base with Stylus                       |
-| `vbase-ts`         | Single file component base with Typescript                   |
-| `vbase-ts-class`   | Single file component base with Typescript Class Format      |
-| `vbase-3-ts`       | Single File component Composition API with Typescript        |
-| `vbase-3-ts-setup` | Single File component setup Composition API with Typescript  |
-| `vbase-ns`         | Single file component with no styles                         |
-| `vbase-sass`       | Single file component base with SASS                         |
-| `vbase-less`       | Single file component base with LESS                         |
+These snippets are meant to provide a base scaffold for your single file components (SFC).
+
+| Snippet            | Purpose                                    |
+| ------------------ | ------------------------------------------ |
+| `vbase-3-ss`       | SFC base with script setup                 |
+| `vbase-3-ss-ts`    | SFC base with script setup and TypeScript  |
+| `vbase`            | SFC base with SCSS                         |
+| `vbase-3`          | SFC Composition API with SCSS              |
+| `vbase-3-setup`    | SFC setup Composition API with SCSS        |
+| `vbase-3-setup`    | SFC setup Composition API with SCSS        |
+| `vbase-3-reactive` | SFC Composition API with Reactive and SCSS |
+| `vbase-css`        | SFC base with CSS                          |
+| `vbase-pcss`       | SFC base with PostCSS                      |
+| `vbase-styl`       | SFC base with Stylus                       |
+| `vbase-ts`         | SFC base with Typescript                   |
+| `vbase-ts-class`   | SFC base with Typescript Class Format      |
+| `vbase-3-ts`       | SFC Composition API with Typescript        |
+| `vbase-3-ts-setup` | SFC setup Composition API with Typescript  |
+| `vbase-ns`         | SFC with no styles                         |
+| `vbase-sass`       | SFC base with SASS                         |
+| `vbase-less`       | SFC base with LESS                         |
 
 ### Template
 

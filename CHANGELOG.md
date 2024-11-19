@@ -2,6 +2,11 @@
 
 All notable changes to the "vue-vscode-snippets" extension will be documented in this file.
 
+## 3.2.0
+
+- Add base script setup blocks for Vue 3
+- Update README with new snippets
+
 ## 3.1.1
 
 - Update README
