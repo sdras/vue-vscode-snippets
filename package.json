@@ -50,6 +50,10 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/vue-script-setup.json"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/vue-script-vuex.json"
       },
       {

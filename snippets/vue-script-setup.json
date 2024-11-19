@@ -1,0 +1,40 @@
+{
+  "Vue SFC Script Setup (Composition API)": {
+    "prefix": ["vbase-3-script-setup", "vbase-3-ss"],
+    "body": [
+      "<script setup>",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue Single File Component Script Setup (Composition API)"
+  },
+  "Vue SFC Script Setup with TypeScript (Composition API)": {
+    "prefix": ["vbase-3-script-setup-ts", "vbase-3-ss-ts"],
+    "body": [
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base for Vue Single File Component Script Setup with TypeScript (Composition API)"
+  }
+}
