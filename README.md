@@ -146,6 +146,12 @@ These snippets are meant to provide a base scaffold for your single file compone
 | `vstore-import` | Import vuex store into main.js |
 | `vstore2`       | Updated Base for Vuex store    |
 
+### Pinia
+
+| Snippet         | Purpose                        |
+| --------------- | ------------------------------ |
+| `v-pinia-store` | Base for Pinia store           |
+
 ### Vue Router
 
 | Snippet              | Purpose                                       |
