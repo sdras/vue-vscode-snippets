@@ -4,17 +4,20 @@
   "description": "Snippets that will supercharge your Vue workflow",
   "icon": "images/vue-logo.png",
   "version": "3.1.5",
-  "publisher": "sdras",
+  "publisher": "CraigRBroughton",
   "engines": {
-    "vscode": "^1.14.0"
+    "vscode": "^1.95.3"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sdras/vue-vscode-snippets.git"
+    "url": "https://github.com/CRBroughton/vue-vscode-snippets.git"
   },
   "scripts": {
     "build": "vsce package -o vue-vscode-snippets-$npm_package_version.vsix",
-    "install": "npm run build && code --install-extension vue-vscode-snippets-$npm_package_version.vsix"
+    "install": "npm run build && code --install-extension vue-vscode-snippets-$npm_package_version.vsix",
+    "changeset": "npx changeset",
+    "changeset:status": "npx changeset status --verbose",
+    "changeset:version": "npx changeset version"
   },
   "keywords": [
     "Vue",
