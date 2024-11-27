@@ -39,7 +39,7 @@
       "",
       "</style>"
     ],
-    "description": "Base for Vue File with PostCSS"
+    "description": "Base for Vue File with SASS"
   },
   "Vue Single File Component with LESS": {
     "prefix": "vbase-less",
@@ -60,7 +60,7 @@
       "",
       "</style>"
     ],
-    "description": "Base for Vue File with PostCSS"
+    "description": "Base for Vue File with LESS"
   },
   "Vue Single File Component with postcss": {
     "prefix": "vbase-pcss",
@@ -195,7 +195,7 @@
     "body": [
       "<template>",
       "\t<div>",
-      "",
+      "\t${0}",
       "\t</div>",
       "</template>",
       "",
