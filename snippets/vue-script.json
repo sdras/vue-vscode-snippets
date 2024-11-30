@@ -309,6 +309,11 @@
     "body": ["const ${1:name} = reactive({", "\t${2:count}: ${3:0}", "})"],
     "description": "Vue Composition api - reactive"
   },
+   "Vue Composition API - DefineProps": {
+    "prefix": "v3props",
+    "body": ["const props = defineProps({ \t$1 })"],
+    "description": "Vue Composition api - defineProps"
+  },
   "Vue Composition API - Computed": {
     "prefix": "v3computed",
     "body": ["const ${1:name} = computed(() => {", "\treturn ${2}", "})"],
