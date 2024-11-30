@@ -87,5 +87,16 @@
       "},"
     ],
     "description": "Vue Router route with per route code-splitting"
-  }
+  },
+  "Vue route blob": {
+    "prefix": ["vroute-blob"],
+    "body": [
+    	"{",
+    	"\tpath: \"/${1:pathName}\",",   
+    	"\tname: \"${2:routeName}\",",
+    	"\tcomponent: ${3:componentName},",
+    	"}",
+    ],
+    "description": "Vue Router route blob"
+  },
 }
