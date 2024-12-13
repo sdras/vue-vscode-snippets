@@ -77,6 +77,7 @@ These snippets are meant to provide a base scaffold for your single file compone
 | `vroutepath`      | router-link Path Routing Link       |
 | `vemit-child`     | Emit event from child component     |
 | `vemit-parent`    | Emit event to parent component      |
+| `vi18n`           | Vue i18n shortcut for $t            |
 
 ### Script
 
