@@ -338,6 +338,41 @@
     "body": ["const ${1:name} = ref(${2:initialValue})"],
     "description": "Vue Ref"
   },
+  "Vue Composition API - defineEmits": {
+    "prefix": "v3emits-ts",
+    "body": [
+      "interface IEmits {",
+      "\t(e: '${1:name}'): ${2}",
+      "}",
+      "",
+      "const emit = defineEmits<IEmits>()"
+    ],
+    "description": "Vue Composition api - defineEmits with Typescript"
+  },
+  "Vue Composition API - defineProps": {
+    "prefix": "v3props-ts",
+    "body": [
+      "interface IProps {",
+      "\t${1:name}: ${2}",
+      "}",
+      "",
+      "const prop = defineProps<IProps>()"
+    ],
+    "description": "Vue Composition api - defineProps with Typescript"
+  },
+  "Vue Composition API - withDefaults": {
+    "prefix": "v3withdefaults-ts",
+    "body": [
+      "interface IProps {",
+      "\t${1:name}: ${2}",
+      "}",
+      "",
+      "const props = withDefaults(defineProps<IProps>(), {",
+      "\t${1:name}: ${3},",
+      "})"
+    ],
+    "description": "Vue Composition api - withDefaults props with Typescript"
+  },
   "Vue Lifecycle Hooks - onMounted": {
     "prefix": "v3onmounted",
     "body": ["onMounted(() => {${1}})"],
