@@ -125,6 +125,9 @@ These snippets are meant to provide a base scaffold for your single file compone
 | `v3watch-array`     | Vue Composition API - watch as array                  |
 | `v3watcheffect`     | Vue Composition API - watchEffect                     |
 | `v3ref`             | Vue Ref                                               |
+| `v3emits-ts`        | Vue Composition API - defineEmits macros with TS      |
+| `v3props-ts`        | Vue Composition API - defineProps macros with TS      |
+| `v3withdefaults-ts` | Vue Composition API - withDefaults macros with TS     |
 | `v3onmounted`       | Lifecycle hook - onMounted                            |
 | `v3onbeforemount`   | Lifecycle hook - onBeforeMount                        |
 | `v3onbeforeupdate`  | Lifecycle hook - onBeforeUpdate                       |
